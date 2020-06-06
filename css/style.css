@@ -432,7 +432,7 @@ p{
 .hex-currencies{
   width: 100%;
   display: block;
-  padding: 100px 0;
+  padding: 0;
 }
 .hex-wrapper{
   width: 100%;
@@ -583,7 +583,7 @@ p{
 .about-wrapper{
   width: 100%;
   display: block;
-  margin-bottom: 280px;
+  margin-bottom:0px;
 }
 .about-sld{
   width: 100%;
@@ -744,7 +744,7 @@ p{
 .about-msg .about-img img,
 .about-transform .about-img img,
 .about-normal .about-img img{
-  max-width: 80%;
+  max-width: 70%;
   margin: 0;
 }
 /*.about-msg .about-img:before*/
@@ -840,7 +840,7 @@ p{
 .hex-deposit{
   width: 100%;
   margin-bottom: 50px;
-  padding: 30px 27px;
+  padding: 12px 20px;
   padding-right: 35px;
   display: flex;
   align-items: end;
@@ -886,8 +886,7 @@ p{
 .hex-loan li{
   display: flex;
   align-items: end;
-  min-height: 158px;
-  padding: 30px 50px;
+  padding: 15px 50px;
   padding-right: 40px;
   border-left: 6px solid transparent;
   transition: all 0.4s ease-in-out;
@@ -1360,11 +1359,11 @@ p{
 }
 
 .about-transform .owl-item{
-  margin-top: 200px;
+  margin-top: 0;
   margin-bottom: 40px;
 }
 .about-transform .about-sld:before{
-  top: 200px;
+  top: 1em;
 }
 .about-transform .about-sld .owl-controls .owl-dots{
   top: 401px;
@@ -1427,8 +1426,7 @@ p{
   max-width: 90%;
   padding: 20px 30px;
   border-radius: 10px;
-  min-height: 67px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .about-chatblk .chat-left{
   float: left;
@@ -1442,7 +1440,7 @@ p{
 .about-chatblk .chat-left p{
   font-size: 20px;
   font-weight: normal;
-  margin-bottom: 40px;
+  margin-bottom: 15px;
   line-height: 30px;
 }
 .about-chatblk .chat-right p:last-child,
@@ -1740,3 +1738,21 @@ footer{
   display: inline-block;
 }
 /* End Footer */
+
+
+
+
+
+
+
+
+
+
+
+
+.section_heading{
+  margin: 1em 0 !important
+}
+.about-transform-hex{
+  margin-top: 4em
+}

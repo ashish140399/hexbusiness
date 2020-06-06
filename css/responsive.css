@@ -41,6 +41,24 @@
 	/*index end*/
 }
 @media(min-width:1800px) and (max-width:1999px){
+
+	.about-img img{
+		max-width: 25em;	
+	}
+
+	.hex-money li a, .hex-money li p, .hex-loan li p, .hex-deposit li p{
+		font-size: 18px
+	}
+	.about-details p{
+		line-height: 30px
+	}
+	.hex-loan li:focus, .hex-loan li:hover{
+		padding: 24px
+	}
+
+
+
+
 	/*comman css*/
 	.container{
   		max-width: 100%;
@@ -189,6 +207,18 @@
 	/*index end*/
 }
 @media(min-width:1351px) and (max-width:1550px){
+
+	.navbar-default{
+		padding: 20px 0 18px
+	}
+
+
+
+
+
+
+
+
 	/*comman css*/
 	.container{
   		max-width: 100%;
