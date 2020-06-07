@@ -210,6 +210,10 @@
 	/*index end*/
 }
 @media(min-width:1351px) and (max-width:1550px){
+	.about-details .app-list img{
+		height: 3em !important;
+    	width: auto !important;
+	}
 
 	.hex-table .table tbody tr td {
 	    padding: 10px 0;
@@ -320,10 +324,7 @@
 		    max-width: 60%;
 	
 		}
-	.about-details .app-list img{
-		height: 4em !important;
-    width: auto !important;
-	}
+
 
 	.hex-loan li p span{
 		margin-top: 0;
@@ -614,7 +615,10 @@
 
 
 
-
+.about-details .app-list img{
+		height: 2em !important;
+    width: auto !important;
+	}
 
 
 	/*comman css*/
@@ -915,7 +919,10 @@
 	.hex-loan li p span{
 		margin-top:0; 
 	}
-
+	.about-details .app-list img{
+		height: 3em !important;
+    width: auto !important;
+	}
 
 
 
