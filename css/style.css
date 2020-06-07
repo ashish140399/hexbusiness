@@ -739,7 +739,7 @@ p{
 .about-transform .about-img,
 .about-normal .about-img{
   align-items: center;
-  margin-top: 20px;
+  margin-top: 0px;
   min-height: 80vh;
 }
 .about-project .about-img img,

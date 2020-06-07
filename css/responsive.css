@@ -17,6 +17,13 @@
 	}
 	/*index end*/
 }
+
+
+
+
+
+
+
 @media(min-width:2000px) and (max-width:2560px){
 	/*comman css*/
 	.container{
@@ -40,6 +47,14 @@
 	}
 	/*index end*/
 }
+
+
+
+
+
+
+
+
 @media(min-width:1800px) and (max-width:1999px){
 
 	.about-img img{
@@ -94,6 +109,16 @@
 	}
 	/*index end*/
 }
+
+
+
+
+
+
+
+
+
+
 @media(min-width:1551px) and (max-width:1799px){
 	.hex-table .table tbody tr td {
 	    padding: 10px 0;
@@ -209,6 +234,15 @@
 	}
 	/*index end*/
 }
+
+
+
+
+
+
+
+
+
 @media(min-width:1351px) and (max-width:1550px){
 	.about-details .app-list img{
 		height: 3em !important;
@@ -583,28 +617,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media(min-width:1200px) and (max-width:1350px){
 	.hex-table .table tbody tr td {
 	    padding: 10px 0;
@@ -615,9 +627,9 @@
 
 
 
-.about-details .app-list img{
-		height: 2em !important;
-    width: auto !important;
+	.about-details .app-list img{
+		height: 3em !important;
+    	width: auto !important;
 	}
 
 
@@ -690,7 +702,7 @@
 		margin-bottom: 180px;
 	}
 	.about-details{
-		margin-top: 120px;
+		margin-top: 0px;
 	}
 	.about-details p{
 		font-size: 15px;
@@ -894,22 +906,10 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media(min-width:1025px) and (max-width:1199px){
+	.about-details p{
+		margin-bottom: 5px;
+	}
 	.hex-table .table tbody tr td {
 	    padding: 10px 0;
 	}
@@ -1154,8 +1154,7 @@
 	}
 
 	.hex-loan li{
-		padding: 20px 30px;
-		min-height: 115px;
+		padding: 10px;
 	}
 	.hex-money li, .hex-deposit,
 	.hex-loan li:hover, .hex-loan li:focus{
@@ -1257,6 +1256,13 @@
 	}
 	/*another end*/
 }
+
+
+
+
+
+
+
 
 
 
@@ -1625,11 +1631,15 @@
 
 
 
-
-
-
-
 @media(min-width:768px) and (max-width:991px){
+	.about-normal .about-img{
+		margin-top: 0px;
+	    min-height: auto;
+	    padding: 8em 0
+	}
+	.about-normal .about-img img{
+		max-width: 45%;
+	}
 	.app-list li a img {
     width: auto!important;
     height: 3em !important;
@@ -2081,20 +2091,15 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media(min-width:448px) and (max-width:767px){
+	.about-normal .about-img{
+		margin-top: 0px;
+	    min-height: auto;
+	    padding: 8em 0
+	}
+	.about-normal .about-img img{
+		max-width: 45%;
+	}
 	.section_heading {
 	    margin: 0em 0 1em 0 !important;
 	}
@@ -2584,23 +2589,15 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media(max-width:447px){
+	.about-normal .about-img{
+		margin-top: 0px;
+	    min-height: auto;
+	    padding: 8em 0
+	}
+	.about-normal .about-img img{
+		max-width: 45%;
+	}
 	.hex-loan li img{
 		width: 45px!important;
     	height: 45px!important;
