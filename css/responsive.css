@@ -95,6 +95,9 @@
 	/*index end*/
 }
 @media(min-width:1551px) and (max-width:1799px){
+	.hex-table .table tbody tr td {
+	    padding: 10px 0;
+	}
 	/*comman css*/
 	.container{
   		max-width: 100%;
@@ -207,6 +210,13 @@
 	/*index end*/
 }
 @media(min-width:1351px) and (max-width:1550px){
+
+	.hex-table .table tbody tr td {
+	    padding: 10px 0;
+	}
+	.hex-table-title{
+		margin-bottom: 15px;
+	}
 	.about-msg .about-sld:before{
 		    width: 85%;
 	}
@@ -564,7 +574,49 @@
 	}
 	/*another end*/
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media(min-width:1200px) and (max-width:1350px){
+	.hex-table .table tbody tr td {
+	    padding: 10px 0;
+	}
+	.hex-table-title{
+		margin-bottom: 15px;
+	}
+
+
+
+
+
+
 	/*comman css*/
 	.container{
   		max-width: 100%;
@@ -826,7 +878,45 @@
 	}
 	/*another end*/
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media(min-width:1025px) and (max-width:1199px){
+	.hex-table .table tbody tr td {
+	    padding: 10px 0;
+	}
+	.hex-table-title{
+		margin-bottom: 15px;
+	}
+
+
+
+
+
 	/*comman css*/
 	.btn-main{
 		font-size: 16px;
@@ -1157,7 +1247,22 @@
 	}
 	/*another end*/
 }
+
+
+
+
+
+
 @media(min-width:992px) and (max-width:1024px){
+	.hex-table .table tbody tr td {
+	    padding: 10px 0;
+	}
+	.hex-table-title{
+		margin-bottom: 15px;
+	}
+
+
+
 	/*comman css*/
 	.btn-main{
 		font-size: 16px;
@@ -1488,7 +1593,24 @@
 	}
 	/*another end*/
 }
-@media(min-width:768px) and (max-width:991px){+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:768px) and (max-width:991px){
 	/*comman css*/
 	.btn-main{
 		font-size: 16px;
@@ -1918,7 +2040,40 @@
 	}
 	/*another end*/
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media(min-width:448px) and (max-width:767px){
+	.hex-table .table tbody tr td {
+	    padding: 10px 0;
+	}
+	.hex-table-title{
+		margin-bottom: 15px;
+	}
 	/*comman css*/
 	.btn-main{
 		font-size: 16px;
@@ -2384,7 +2539,40 @@
 	}
 	/*another end*/
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media(max-width:447px){
+	.hex-table .table tbody tr td {
+	    padding: 10px 0;
+	}
+	.hex-table-title{
+		margin-bottom: 15px;
+	}
 	/*comman css*/
 	.btn-main{
 		font-size: 14px;
@@ -2481,10 +2669,10 @@
 		padding-bottom: 50px;
 	}
 	.hex-table .table tbody tr td{
-		padding: 15px;
+		padding: 10px;
 	}
 	.hex-block{
-		padding: 20px;
+		padding: 12px;
 	}
 	.hex-table-title h4{
 		font-size: 26px;

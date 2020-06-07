@@ -441,7 +441,7 @@ p{
 .hex-block{
   width: 100%;
   display: block;
-  padding: 35px 50px;
+  padding: 15px 40px;
   box-shadow: 3px 0 35px rgba(0,0,0,0.03);
   border-radius: 20px;
   margin-bottom: 30px;
@@ -498,7 +498,7 @@ p{
   border: none;
 }
 .hex-table .table tbody tr td{
-  padding: 20px 0;
+  padding: 15px 0;
   border: none;
 }
 .hextabs-table .table tr td p,
