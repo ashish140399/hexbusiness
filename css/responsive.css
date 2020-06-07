@@ -207,6 +207,75 @@
 	/*index end*/
 }
 @media(min-width:1351px) and (max-width:1550px){
+	.about-msg .about-sld:before{
+		    width: 85%;
+	}
+	.btn-msg{
+		padding: 10px 16px;
+		margin: 15px 0 0;
+		
+	}
+	.hex-money li img{
+		    width: 40px!important;
+    height: 40px!important;
+	}
+	.hex-money li{
+		padding: 6px 10px;
+    padding-right: 20px;
+	}
+	.about-msg .about-details{
+		padding-right: 25px;
+    padding-left: 25px;
+	}
+	.about-chatblk .chat-left p{
+		font-size: 12px !important
+	}
+	.about-chatblk .chat-right p{
+		font-size: 12px !important
+	}
+	.about-chatblk .chat-right p, .about-chatblk .chat-left p{
+		line-height: 18px;
+	}
+	.about-chatblk .chat-left, .about-chatblk .chat-right{
+		padding:8px 15px; 	
+	    margin-bottom: 10px;
+	}
+	.hextabs-table{
+		margin-top: 0px;
+	}
+	.about-transform .about-sld .owl-controls .owl-dots{
+		top: 114px
+	}
+	.about-transform .about-details{
+		margin-top: 100px
+	}
+	.hextabs-wrapper{
+		    margin: 100px auto 0;
+	}
+	.hex-btn-light .btn-main, .hex-btn .btn-main{
+		padding: 10px
+	}
+	.hextabs-block h4{
+		margin-bottom: 20px
+	}
+	.hextabs-block{
+		padding: 30px
+	}
+	.hxy{
+		bottom: 20px !important;
+	}
+	.hex-form .hex-select, .hex-form .hex-receive, .hex-form .hex-send{
+		margin-bottom: 20px
+	}
+	.hex-form .form-control{
+		height: 48px;
+	}
+	.hex-form span{
+		bottom: 10px
+	}
+	.about-transform .about-details .btn-main{
+		padding: 12px 30px;
+	}
 
 	.navbar-default{
 		padding: 20px 0 18px
@@ -486,7 +555,8 @@
 	}
 
 	.about-chatwrap{
-		width: 530px;
+		width: 450px;
+		padding:30px;
 	}
 
 	.hex-project-list{
