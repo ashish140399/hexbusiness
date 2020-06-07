@@ -912,6 +912,9 @@
 	.hex-table-title{
 		margin-bottom: 15px;
 	}
+	.hex-loan li p span{
+		margin-top:0; 
+	}
 
 
 
@@ -1254,6 +1257,13 @@
 
 
 @media(min-width:992px) and (max-width:1024px){
+	.app-list li a img {
+	    width: auto!important;
+	    height: 3em !important;
+	}
+	.app-list{
+		margin:20px 0;
+	}
 	.hex-table .table tbody tr td {
 	    padding: 10px 0;
 	}
@@ -1348,6 +1358,9 @@
 		font-size: 32px;
 		margin-bottom: 70px;
 	}
+	.main-title-sub{
+		font-size: 22px !important;
+	}
 	.about-project, .about-msg, .about-transform, .about-normal, .about-wrapper{
 		margin-bottom: 80px;
 	}
@@ -1356,18 +1369,17 @@
 	}*/
 	.about-details{
 		padding-right: 0;
-		margin-top: 50px;
 	}
 	.about-details p{
 		font-size: 15px;
 		line-height: 30px;
 	}
 	.about-details .main-title{
-		margin-bottom: 22px;
+		margin-bottom: 10px;
 	}
 	.about-details .title-btn{
 		font-size: 18px;
-		margin-bottom: 30px;
+		margin-bottom: 20px;
 	}
 	.about-transform .about-details .btn-main:before,
 	.about-details .title-btn:before{
@@ -1468,7 +1480,7 @@
 	/*another*/
 	.main-title{
 		font-size: 30px;
-		line-height: 38px;
+		line-height: 28px;
 	}
 	.banner-details h1{
 		line-height: 50px;
@@ -1490,8 +1502,8 @@
 	}
 
 	.hex-loan li{
-		padding: 20px 30px;
-		min-height: 115px;
+		padding: 10px;
+		min-height: auto;
 	}
 	.hex-money li, .hex-deposit,
 	.hex-loan li:hover, .hex-loan li:focus{
@@ -1611,6 +1623,16 @@
 
 
 @media(min-width:768px) and (max-width:991px){
+	.app-list li a img {
+    width: auto!important;
+    height: 3em !important;
+}
+	.section_heading {
+	    margin: 2em 0 2em 0 !important;
+	}
+	.about-img{
+		min-height: auto;
+	}
 	/*comman css*/
 	.btn-main{
 		font-size: 16px;
@@ -1722,14 +1744,12 @@
 	}
 	.about-transform .about-sld .owl-controls .owl-dots,
 	.about-sld .owl-controls .owl-dots{
-		top: auto;
-    	bottom: -50px;
-    	left: 50%;
+		top: 580px;
     	margin-left: -21px;
 	}
 	.about-details{
 		padding-right: 0;
-		margin-top: 50px;
+		margin-top: 0px;
 	}
 	.about-details p{
 		font-size: 15px;
@@ -1920,8 +1940,8 @@
 	}
 
 	.hex-loan li{
-		padding: 20px 30px;
-		min-height: 115px;
+		padding: 10px;
+		min-height: auto;
 	}
 	.hex-money li, .hex-deposit,
 	.hex-loan li:hover, .hex-loan li:focus{
@@ -2068,6 +2088,16 @@
 
 
 @media(min-width:448px) and (max-width:767px){
+	.section_heading {
+	    margin: 0em 0 1em 0 !important;
+	}
+	.hex-loan li p span{
+		margin-top: 0;
+	}
+	.about-details .app-list img{
+		height: 3em !important;
+    width: auto !important;
+	}
 	.hex-table .table tbody tr td {
 	    padding: 10px 0;
 	}
@@ -2260,11 +2290,9 @@
 		margin-bottom: 20px;
 		padding: 20px;
 	}
-	.about-img{
-		min-height: 70vh;
-	}
+
 	.about-img>img{
-		width: 60%!important;
+		width: 50%!important;
 	}
 	.btn-msg{
 		font-size: 16px;
@@ -2422,8 +2450,7 @@
 	}
 
 	.hex-loan li{
-		padding: 20px 30px;
-		min-height: 115px;
+		padding: 10px 25px;
 	}
 	.hex-money li, .hex-deposit,
 	.hex-loan li:hover, .hex-loan li:focus{
