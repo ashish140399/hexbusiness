@@ -684,8 +684,7 @@ p{
 }
 .app-list li{
   float: left;
-  width: 48%;
-  margin-right: 2%;
+  margin-right: 20px;
 }
 .app-list li:last-child{
   margin: 0;
@@ -694,7 +693,7 @@ p{
   display: block;
 }
 .about-details .app-list img{
-    height: 3em !important;
+    height: 4em !important;
     width: auto !important;
   }
 
