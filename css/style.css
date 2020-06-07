@@ -610,7 +610,7 @@ p{
   display: block;
   padding-right: 120px;
   word-break: break-word;
-  margin-top: 230px;
+  margin-top: 0px;
 }
 .about-details .title-btn{
   font-size: 22px;
@@ -1751,7 +1751,7 @@ footer{
 
 
 .section_heading{
-  margin: 1em 0 !important
+  margin: 2em 0 1em 0 !important
 }
 .about-transform-hex{
   margin-top: 4em
