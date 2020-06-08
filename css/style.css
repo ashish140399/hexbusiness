@@ -1330,7 +1330,7 @@ p{
 }
 
 .hextabs-table{
-  margin-top: -280px;
+  margin-top: 0px;
 }
 .hextabs-table .table-footer{
   width: 100%;
@@ -1368,7 +1368,7 @@ p{
   top: 1em;
 }
 .about-transform .about-sld .owl-controls .owl-dots{
-  top: 401px;
+  top: 196px;
 }
 .about-transform .owl-controls .owl-nav .owl-prev{
   display: none;
@@ -1757,4 +1757,7 @@ footer{
 }
 .about-transform-hex{
   margin-top: 4em
+}
+.about-normal{
+  margin-top: 5%;
 }
