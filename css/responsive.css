@@ -82,7 +82,7 @@
 	/*comman css end*/
 	/*index*/
 	.about-details{
-		width: 564px;
+		width: 640px;
 		max-width: 100%;
 		padding-right: 0;
 	}
@@ -101,7 +101,7 @@
 	.about-msg .about-details,
 	.about-normal .about-details{
 		padding-left: 0;
-		margin-left: 120px;
+		margin-left: 80px;
 	}
 	.about-msg .about-details>p,
 	.about-normal .about-details>p{
@@ -120,6 +120,9 @@
 
 
 @media(min-width:1551px) and (max-width:1799px){
+	.about-normal .about-details {
+	    padding-left: 80px;
+	}
 	.hex-table .table tbody tr td {
 	    padding: 10px 0;
 	}
@@ -618,6 +621,15 @@
 
 
 @media(min-width:1200px) and (max-width:1350px){
+	.about-details p{
+		margin-bottom: 10px
+	}
+	.about-normal .about-details{
+		padding-left: 70px
+	}
+	.hex-loan li p span{
+		margin-top: 0
+	}
 	.hex-table .table tbody tr td {
 	    padding: 10px 0;
 	}
@@ -709,11 +721,12 @@
 		line-height: 30px;
 	}
 	.about-details .main-title{
-		margin-bottom: 22px;
+		margin-bottom: 12px;
+		font-size: 30px;
 	}
 	.about-details .title-btn{
 		font-size: 18px;
-		margin-bottom: 30px;
+		margin-bottom: 12px;
 	}
 	.about-transform .about-details .btn-main:before,
 	.about-details .title-btn:before{
@@ -787,7 +800,7 @@
 	/*another*/
 	.main-title{
 		font-size: 34px;
-		line-height: 44px;
+		line-height: 34px;
 	}
 	.banner-details h1{
 		line-height: 50px;
@@ -809,8 +822,7 @@
 	}
 
 	.hex-loan li{
-		padding: 20px 30px;
-		min-height: 115px;
+		padding: 10px;
 	}
 	.hex-money li, .hex-deposit,
 	.hex-loan li:hover, .hex-loan li:focus{
@@ -907,6 +919,18 @@
 
 
 @media(min-width:1025px) and (max-width:1199px){
+	.about-project .about-img, .about-msg .about-img, .about-transform .about-img, .about-normal .about-img {
+	    align-items: center;
+	    margin-top: 0px;
+	    min-height: 65vh;
+	}
+	.hex-loan li img{
+		margin-top: 0
+	}
+	.hex-money li img, .hex-loan li img{
+		width: 50px!important;
+    	height: 53px!important;
+	}
 	.about-details p{
 		margin-bottom: 5px;
 	}
@@ -985,7 +1009,7 @@
 	.hex-deposit li p,
 	.hex-table h5,
 	.hex-table-title h4 span{
-		font-size: 18px;
+		font-size: 16px;
 	}
 	.hex-table-title .live-btn,
 	.hex-table .table thead tr th{
@@ -997,7 +1021,7 @@
 	.hex-table .table tbody tr td .down,
 	.hex-table .table tbody tr td .up,
 	.hex-table .table tbody tr td p{
-		font-size: 14px;
+		font-size: 12px;
 	}
 	.hex-table .table tbody tr td .down,
 	.hex-table .table tbody tr td .up{
@@ -1008,8 +1032,8 @@
 		top: 60px;
 	}
 	.about-us .main-title{
-		font-size: 30px;
-		margin-bottom: 70px;
+		font-size: 24px;
+		margin-bottom: 20px;
 	}
 	.about-project, .about-msg, .about-transform, .about-normal, .about-wrapper{
 		margin-bottom: 80px;
@@ -1026,11 +1050,11 @@
 		line-height: 30px;
 	}
 	.about-details .main-title{
-		margin-bottom: 22px;
+		margin-bottom: 10px;
 	}
 	.about-details .title-btn{
 		font-size: 18px;
-		margin-bottom: 30px;
+		margin-bottom: 10px;
 	}
 	.about-transform .about-details .btn-main:before,
 	.about-details .title-btn:before{
@@ -1132,7 +1156,7 @@
 	/*another*/
 	.main-title{
 		font-size: 30px;
-		line-height: 38px;
+		line-height: 30px;
 	}
 	.banner-details h1{
 		line-height: 50px;
@@ -1270,6 +1294,34 @@
 
 
 @media(min-width:992px) and (max-width:1024px){
+	.about-project .about-img:before, .about-normal .about-img:before{
+		min-height: 60vh;
+		height: auto;
+	}
+	.about-project .about-img, .about-msg .about-img, .about-transform .about-img, .about-normal .about-img {
+	    align-items: center;
+	    margin-top: 0px;
+	    min-height: 65vh;
+	}
+	.hex-loan li img{
+		margin-top: 0
+	}
+	.hex-money li img, .hex-loan li img{
+		width: 50px!important;
+    	height: 53px!important;
+	}
+	.about-details p{
+		margin-bottom: 5px;
+	}
+	.hex-table .table tbody tr td {
+	    padding: 10px 0;
+	}
+	.hex-table-title{
+		margin-bottom: 15px;
+	}
+	.hex-loan li p span{
+		margin-top:0; 
+	}
 	.app-list li a img {
 	    width: auto!important;
 	    height: 3em !important;
@@ -1368,7 +1420,7 @@
 		top: 60px;
 	}
 	.about-us .main-title{
-		font-size: 32px;
+		font-size: 24px;
 		margin-bottom: 70px;
 	}
 	.main-title-sub{
@@ -1463,7 +1515,7 @@
 	.footer-social,
 	.footer-details p,
 	.footer-details .ft-logo{
-		margin-bottom: 22px;
+		margin-bottom: 10px;
 	}
 	.footer-details p,
 	.footer-list li a,
@@ -1492,8 +1544,8 @@
 	/*index end*/
 	/*another*/
 	.main-title{
-		font-size: 30px;
-		line-height: 28px;
+		font-size: 24px;
+		line-height: 24px;
 	}
 	.banner-details h1{
 		line-height: 50px;
