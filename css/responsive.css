@@ -285,6 +285,18 @@
 
 
 @media(min-width:1351px) and (max-width:1550px){
+	.app-list{
+		margin: 10px 0
+	}
+	.about-details p{
+		margin-bottom: 5px
+	}
+	.hex-money li img, .hex-loan li img {
+	    margin-right: 15px;;
+	    margin-top: 5px;
+	    width: 40px!important;
+	    height: 40px!important;
+	}
 	.hextabs-table .table tr th{
 		padding: 0 0 16px
 	}
@@ -395,10 +407,13 @@
 	.btn-main{
 		padding: 15px 30px
 	}
+	.about-sld .owl-controls .owl-dots{
+		transform: scale(0.8);
+	}
 	.about-img img {
 	    width: auto!important;
 	    margin: 0 auto;
-	    max-width: 18em;
+	    max-width: 15em;
 	}
 	.about-sld:before{
 		top: 40px;
@@ -414,7 +429,7 @@
 		margin-top: 0;
 	}
 	.hex-loan li{
-		padding: 10px 30px
+		padding: 5px 20px
 	}
 
 	.section_heading {
@@ -425,7 +440,7 @@
 		padding-left: 50px
 	}
 	.hex-loan li:focus, .hex-loan li:hover{
-		padding: 15px 20px;
+		padding: 15px;
 		padding-right:0; 
 	}
 
@@ -448,7 +463,7 @@
 		font-size: 16px;
 	}
 	.main-title{
-		font-size: 30px;
+		font-size: 26px;
 		line-height: 30px;
 	}
 	/*comman css end*/
@@ -518,7 +533,7 @@
 		line-height: 28px;
 	}
 	.about-details .main-title{
-		margin-bottom: 12px;
+		margin-bottom: 5px;
 	}
 	.about-details .title-btn{
 		font-size: 18px;
@@ -1473,6 +1488,135 @@
 
 
 @media(min-width:992px) and (max-width:1024px){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	.about-transform .about-img{
+		min-height: 450px
+	}
+	.about-normal .about-img{
+		min-height: 700px
+	}
+	.hex-btn .btn-main{
+		padding: 10px
+	}
+	.about-transform .about-details .btn-main{
+		padding: 10px 20px;
+		margin-top: 26px;
+	}
+	.main-title{
+		font-size: 32px
+	}
+	.about-details .title-btn{ 
+		margin-bottom: 20px 
+	}
+	.about-details .main-title {
+	    margin-bottom: 20px;
+	}
+	.about-transform .about-img{
+		min-height: 70vh
+	}
+	.hextabs-wrapper{
+		width: 500px
+	}
+	.about-normal .about-details {
+	    padding-left: 80px;
+	}
+	.hex-table .table tbody tr td {
+	    padding: 10px 0;
+	}
+	.about-project .about-img, .about-msg .about-img, .about-transform .about-img, .about-normal .about-img {
+	    align-items: center;
+	    margin-top: 0px;
+	    min-height: 65vh;
+	}
+	.hex-loan li img{
+		margin-top: 0
+	}
+	.hex-money li img, .hex-loan li img{
+		width: 50px!important;
+    	height: 53px!important;
+	}
+	.about-details p{
+		margin-bottom: 5px;
+	}
+	.hex-table .table tbody tr td {
+	    padding: 10px 0;
+	}
+	.hex-table-title{
+		margin-bottom: 15px;
+	}
+	.hex-loan li p span{
+		margin-top:0; 
+	}
+	.hex-form .form-control{
+		height: 55px
+	}
+	.hex-form .hex-receive{
+		height: 30px
+	}
+	.hextabs-table .table tr th{
+		padding: 0 0 16px
+	}
+	.hextabs-table .table tr td {
+	    padding: 10px 0 0;
+	}
+	.about-normal .about-img{
+		min-height: 600px
+	}
+	.about-details p{
+		margin-bottom: 10px
+	}
+	.about-normal .about-details{
+		padding-left: 70px
+	}
+	.hex-loan li p span{
+		margin-top: 0
+	}
+	.hex-table .table tbody tr td {
+	    padding: 10px 0;
+	}
+	.hex-table-title{
+		margin-bottom: 15px;
+	}
+	.about-details .app-list img{
+		height: 3em !important;
+    width: auto !important;
+	}
+	.hextabs-wrapper{
+		margin: 40px auto 0;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	.owl-controls .owl-dots {
 	    top: 196px;
 	    transform: scale(.7);
@@ -1986,6 +2130,31 @@
 
 
 @media(min-width:768px) and (max-width:991px){
+	.about-details .app-list img {
+	    height: 3em !important;
+	    width: auto !important;
+	}
+	.app-list {
+	    margin: 20px 0;
+	}
+	.about-transform .about-details .btn-main {
+	    padding: 10px 15px;
+	    margin-top: 0px;
+	}
+	.hex-money li img, .hex-loan li img{
+		width: 48px !important;
+		height: 48px !important;                             
+	}
+	.hex-loan li p span{
+		margin-top: 0;
+	}
+	.about-transform .about-sld .owl-controls .owl-dots, .about-sld .owl-controls .owl-dots{
+		top: 20px
+	}
+	.row{
+		display: flex;
+		flex-direction: column-reverse;
+	}
 	.about-normal .about-img{
 		margin-top: 0px;
 	    min-height: auto;
@@ -2107,15 +2276,15 @@
 		width: 110%;
 	}
 	.about-us .main-title{
-		font-size: 32px;
+		font-size: 26px;
 		margin-bottom: 70px;
 	}
 	.about-project, .about-msg, .about-transform, .about-normal, .about-wrapper{
-		margin-bottom: 80px;
+		margin-bottom: 20px;
 	}
 	.about-transform .about-sld .owl-controls .owl-dots,
 	.about-sld .owl-controls .owl-dots{
-		top: 580px;
+		top: 15px;
     	margin-left: -21px;
 	}
 	.about-details{
@@ -2127,11 +2296,11 @@
 		line-height: 30px;
 	}
 	.about-details .main-title{
-		margin-bottom: 22px;
+		margin-bottom: 15px;
 	}
 	.about-details .title-btn{
 		font-size: 18px;
-		margin-bottom: 30px;
+		margin-bottom: 15px;
 	}
 	.about-transform .about-details .btn-main:before,
 	.about-details .title-btn:before{
@@ -2163,7 +2332,7 @@
 		padding: 20px;
 	}
 	.about-img>img{
-		width: 50%!important;
+		width: 30%!important;
 	}
 	.btn-msg{
 		font-size: 16px;
@@ -2289,7 +2458,7 @@
 	/*another*/
 	.main-title{
 		font-size: 30px;
-		line-height: 38px;
+		line-height: 28px;
 	}
 	.banner-details h1{
 		line-height: 50px;
@@ -2347,11 +2516,13 @@
 		margin-top: 0;
 	}
 	.about-img{
-		margin-bottom: 40px;
+		margin-bottom: 20px;
+		margin-top: 25px;
 	}
 
 	.hextabs-wrapper{
 		width: 415px;
+		margin: 30px auto 0;
 	}
 	.hextabs-block{
 		width: 380px;
