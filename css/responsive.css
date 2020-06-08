@@ -56,6 +56,19 @@
 
 
 @media(min-width:1800px) and (max-width:1999px){
+	.about-transform .about-details .btn-main{
+		padding: 10px 20px;
+		margin-top: 26px;
+	}
+	.main-title{
+		font-size: 32px
+	}
+	.about-details .title-btn{ 
+		margin-bottom: 10px 
+	}
+	.about-details .main-title {
+	    margin-bottom: 20px;
+	}
 
 	.about-img img{
 		max-width: 25em;	
@@ -120,6 +133,31 @@
 
 
 @media(min-width:1551px) and (max-width:1799px){
+	.about-normal .about-img{
+		min-height: 700px
+	}
+	.hex-btn .btn-main{
+		padding: 10px
+	}
+	.about-transform .about-details .btn-main{
+		padding: 10px 20px;
+		margin-top: 26px;
+	}
+	.main-title{
+		font-size: 32px
+	}
+	.about-details .title-btn{ 
+		margin-bottom: 20px 
+	}
+	.about-details .main-title {
+	    margin-bottom: 20px;
+	}
+	.about-transform .about-img{
+		min-height: 70vh
+	}
+	.hextabs-wrapper{
+		width: 500px
+	}
 	.about-normal .about-details {
 	    padding-left: 80px;
 	}
@@ -247,6 +285,15 @@
 
 
 @media(min-width:1351px) and (max-width:1550px){
+	.hextabs-table .table tr th{
+		padding: 0 0 16px
+	}
+	.hextabs-table .table tr td {
+	    padding: 10px 0 0;
+	}
+	.about-normal .about-img{
+		min-height: 600px
+	}
 	.about-details .app-list img{
 		height: 3em !important;
     	width: auto !important;
@@ -307,7 +354,7 @@
 		padding: 10px
 	}
 	.hextabs-block h4{
-		margin-bottom: 20px
+		margin-bottom: 5px
 	}
 	.hextabs-block{
 		padding: 30px
@@ -621,6 +668,61 @@
 
 
 @media(min-width:1200px) and (max-width:1350px){
+	.about-normal .about-img{
+		min-height: 700px
+	}
+	.hex-btn .btn-main{
+		padding: 10px
+	}
+	.about-transform .about-details .btn-main{
+		padding: 10px 20px;
+		margin-top: 26px;
+	}
+	.main-title{
+		font-size: 32px
+	}
+	.about-details .title-btn{ 
+		margin-bottom: 20px 
+	}
+	.about-details .main-title {
+	    margin-bottom: 20px;
+	}
+	.about-transform .about-img{
+		min-height: 70vh
+	}
+	.hextabs-wrapper{
+		width: 500px
+	}
+	.about-normal .about-details {
+	    padding-left: 80px;
+	}
+	.hex-table .table tbody tr td {
+	    padding: 10px 0;
+	}
+	.hexmoneyhsexspan{
+		bottom: 14px;
+	}
+	.hex-form .hex-receive{
+		margin-bottom: 30px
+	}
+	.hex-form span{
+		bottom: 5px;
+	}
+	.hex-form .form-control{
+		height: 55px
+	}
+	.hex-form .hex-receive{
+		height: 30px
+	}
+	.hextabs-table .table tr th{
+		padding: 0 0 16px
+	}
+	.hextabs-table .table tr td {
+	    padding: 10px 0 0;
+	}
+	.about-normal .about-img{
+		min-height: 600px
+	}
 	.about-details p{
 		margin-bottom: 10px
 	}
@@ -919,6 +1021,40 @@
 
 
 @media(min-width:1025px) and (max-width:1199px){
+	.about-transform .about-img{
+		min-height: 450px
+	}
+	.about-normal .about-img{
+		min-height: 700px
+	}
+	.hex-btn .btn-main{
+		padding: 10px
+	}
+	.about-transform .about-details .btn-main{
+		padding: 10px 20px;
+		margin-top: 26px;
+	}
+	.main-title{
+		font-size: 32px
+	}
+	.about-details .title-btn{ 
+		margin-bottom: 20px 
+	}
+	.about-details .main-title {
+	    margin-bottom: 20px;
+	}
+	.about-transform .about-img{
+		min-height: 70vh
+	}
+	.hextabs-wrapper{
+		width: 500px
+	}
+	.about-normal .about-details {
+	    padding-left: 80px;
+	}
+	.hex-table .table tbody tr td {
+	    padding: 10px 0;
+	}
 	.about-project .about-img, .about-msg .about-img, .about-transform .about-img, .about-normal .about-img {
 	    align-items: center;
 	    margin-top: 0px;
@@ -943,11 +1079,54 @@
 	.hex-loan li p span{
 		margin-top:0; 
 	}
+	.hex-form .form-control{
+		height: 55px
+	}
+	.hex-form .hex-receive{
+		height: 30px
+	}
+	.hextabs-table .table tr th{
+		padding: 0 0 16px
+	}
+	.hextabs-table .table tr td {
+	    padding: 10px 0 0;
+	}
+	.about-normal .about-img{
+		min-height: 600px
+	}
+	.about-details p{
+		margin-bottom: 10px
+	}
+	.about-normal .about-details{
+		padding-left: 70px
+	}
+	.hex-loan li p span{
+		margin-top: 0
+	}
+	.hex-table .table tbody tr td {
+	    padding: 10px 0;
+	}
+	.hex-table-title{
+		margin-bottom: 15px;
+	}
 	.about-details .app-list img{
 		height: 3em !important;
     width: auto !important;
 	}
+	.hextabs-wrapper{
+		margin: 40px auto 0;
+	}
 
+	.owl-controls .owl-dots {
+	    top: 196px;
+	    transform: scale(.7);
+	}
+	.about-transform .about-details{
+		margin-top: 80px
+	}
+	.about-transform .about-sld .owl-controls .owl-dots{
+		top: 95px
+	}
 
 
 
@@ -1294,6 +1473,129 @@
 
 
 @media(min-width:992px) and (max-width:1024px){
+	.owl-controls .owl-dots {
+	    top: 196px;
+	    transform: scale(.7);
+	}
+	.about-transform .about-details{
+		margin-top: 80px
+	}
+	.about-transform .about-sld .owl-controls .owl-dots{
+		top: 95px
+	}
+	.about-transform .owl-controls .owl-nav .owl-next{
+		width: 36px;
+		height: 36px;
+	}
+	.hex-form span{
+		bottom: 8px
+	}
+
+
+
+	.about-transform .about-img{
+		min-height: 450px
+	}
+	.about-normal .about-img{
+		min-height: 700px
+	}
+	.hex-btn .btn-main{
+		padding: 10px
+	}
+	.about-transform .about-details .btn-main{
+		padding: 10px 20px;
+		margin-top: 26px;
+	}
+	.main-title{
+		font-size: 32px
+	}
+	.about-details .title-btn{ 
+		margin-bottom: 20px 
+	}
+	.about-details .main-title {
+	    margin-bottom: 20px;
+	}
+	.about-transform .about-img{
+		min-height: 70vh
+	}
+	.hextabs-wrapper{
+		width: 500px
+	}
+	.about-normal .about-details {
+	    padding-left: 80px;
+	}
+	.hex-table .table tbody tr td {
+	    padding: 10px 0;
+	}
+	.about-project .about-img, .about-msg .about-img, .about-transform .about-img, .about-normal .about-img {
+	    align-items: center;
+	    margin-top: 0px;
+	    min-height: 65vh;
+	}
+	.hex-loan li img{
+		margin-top: 0
+	}
+	.hex-money li img, .hex-loan li img{
+		width: 50px!important;
+    	height: 53px!important;
+	}
+	.about-details p{
+		margin-bottom: 5px;
+	}
+	.hex-table .table tbody tr td {
+	    padding: 10px 0;
+	}
+	.hex-table-title{
+		margin-bottom: 15px;
+	}
+	.hex-loan li p span{
+		margin-top:0; 
+	}
+	.hex-form .form-control{
+		height: 55px
+	}
+	.hex-form .hex-receive{
+		height: 30px
+	}
+	.hextabs-table .table tr th{
+		padding: 0 0 16px
+	}
+	.hextabs-table .table tr td {
+	    padding: 10px 0 0;
+	}
+	.about-normal .about-img{
+		min-height: 600px
+	}
+	.about-details p{
+		margin-bottom: 10px
+	}
+	.about-normal .about-details{
+		padding-left: 70px
+	}
+	.hex-loan li p span{
+		margin-top: 0
+	}
+	.hex-table .table tbody tr td {
+	    padding: 10px 0;
+	}
+	.hex-table-title{
+		margin-bottom: 15px;
+	}
+	.hextabs-wrapper{
+		margin-top: 50px
+	}
+	.hextabs-block{
+		padding: 20px
+	}
+
+
+
+
+
+
+
+
+
 	.about-project .about-img:before, .about-normal .about-img:before{
 		min-height: 60vh;
 		height: auto;
