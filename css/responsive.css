@@ -286,7 +286,7 @@
 
 @media(min-width:1351px) and (max-width:1550px){
 	.app-list{
-		margin: 10px 0
+		margin: 18px 0
 	}
 	.about-details p{
 		margin-bottom: 5px
@@ -417,7 +417,7 @@
 	}
 	.about-sld:before{
 		top: 40px;
-		height: 700px
+		height: 480px
 	}	
 	.about-project .about-img img, .about-msg .about-img img, .about-transform .about-img img, .about-normal .about-img img {
 		    max-width: 60%;
@@ -2617,6 +2617,78 @@
 
 
 @media(min-width:448px) and (max-width:767px){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	.about-details .app-list img {
+	    height: 3em !important;
+	    width: auto !important;
+	}
+	.app-list {
+	    margin: 20px 0;
+	}
+	.about-transform .about-details .btn-main {
+	    padding: 10px 15px;
+	    margin-top: 0px;
+	}
+	.hex-money li img, .hex-loan li img{
+		width: 48px !important;
+		height: 48px !important;                             
+	}
+	.hex-loan li p span{
+		margin-top: 0;
+	}
+	.about-transform .about-sld .owl-controls .owl-dots, .about-sld .owl-controls .owl-dots{
+		top: 36px
+	}
+	.row{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.about-normal .about-img{
+		margin-top: 0px;
+	    min-height: auto;
+	    padding: 8em 0
+	}
+	.about-normal .about-img img{
+		max-width: 45%;
+	}
+	.app-list li a img {
+    width: auto!important;
+    height: 3em !important;
+}
+	.section_heading {
+	    margin: 2em 0 2em 0 !important;
+	}
+	.about-img{
+		min-height: auto;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	.about-normal .about-img{
 		margin-top: 0px;
 	    min-height: auto;
@@ -2721,7 +2793,7 @@
 	}
 
 	.hex-currencies{
-		padding-bottom: 50px;
+		padding-bottom: 0px;
 	}
 	.hex-table .table tbody tr td{
 		padding: 15px;
@@ -2775,16 +2847,9 @@
 	.about-project, .about-msg, .about-transform, .about-normal, .about-wrapper{
 		margin-bottom: 80px;
 	}
-	.about-transform .about-sld .owl-controls .owl-dots,
-	.about-sld .owl-controls .owl-dots{
-		top: auto;
-    	bottom: -50px;
-    	left: 50%;
-    	margin-left: -21px;
-	}
 	.about-details{
 		padding-right: 0;
-		margin-top: 50px;
+		margin-top: 20px;
 	}
 	.about-details p{
 		font-size: 15px;
@@ -2829,7 +2894,7 @@
 	}
 
 	.about-img>img{
-		width: 50%!important;
+		width: 25%!important;
 	}
 	.btn-msg{
 		font-size: 16px;
@@ -3022,7 +3087,8 @@
 		margin-top: 0;
 	}
 	.about-img{
-		margin-bottom: 40px;
+		margin-top: 20px;
+		margin-bottom: 20px;
 	}
 
 	.hextabs-wrapper{
