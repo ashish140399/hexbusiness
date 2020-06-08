@@ -644,7 +644,7 @@ footer{
 
 	/**** global****/
 	.btn-main{
-		padding: 14px 30px !important;
+		padding: 10px 30px !important;
 	}
 	/**** global end *****/
 
@@ -681,12 +681,16 @@ footer{
 		margin-bottom: 20px
 	}
 	.hex-loan li p span{
-		margin-top: 5px;
+		margin-top: 0px;
 	}
 	.hex-loan li{
-		padding: 8px 15px;
+		padding: 5px 15px;
 	}
-
+.hex-money li img{
+	width: 38px!important;
+    height: 38px!important;
+        margin-right: 15px;
+}
 
 
 
@@ -717,8 +721,8 @@ footer{
     transform: scale(0.8);
 }
 .hex-loan li img{
-	width: 48px!important;
-    height: 48px!important;
+	width: 38px!important;
+    height: 38px!important;
 }
  /****** hex mobile end *****/
 
@@ -733,11 +737,14 @@ footer{
  	min-height: 650px
  }
  .about-normal .about-img img{
- 	max-width: 50%;
- 	transform: translateX(30%);
+ 	max-width: 40%;
+ 	transform: translateX(50%);
  }
  .about-normal .about-img{
  	min-height: 60vh;
+ }
+ .about-details p{
+ 	margin-bottom: 10px
  }
  /****** hex credit end *****/
 
@@ -753,7 +760,7 @@ footer{
 	padding: 14px;
 }
 .hex-form .form-control{
-	height: 50px
+	height: 44px
 }
 .hexmoneyhsexspan{
 	bottom: 10px;
@@ -769,19 +776,21 @@ footer{
 	padding: 0 0 10px
 }
 .hextabs-block h4 {
-    margin: 0 0 25px;
+    margin: 0 0 15px;
 }
 .hextabs-wrapper{
 	margin: 80px auto 0;
 }
 .about-transform .about-sld .owl-dots{
-	top: 110px !important
+	top: 50px !important
 }
 .hextabs-block{
 	padding: 30px 35px;
 }
 
-
+.hex-form .hex-select, .hex-form .hex-receive, .hex-form .hex-send{
+	margin-bottom: 20px
+}
 
 
 
@@ -806,14 +815,17 @@ footer{
 	margin: 0 0 20px
 }
 .about-chatblk .chat-left{
-	margin-bottom: 15px;
+	padding: 8px 14px;
+}
+.about-chatblk .chat-left, .about-chatblk .chat-right{
+	margin-bottom: 10px
 }
 .about-chatblk .chat-left p{
-	line-height: 24px;
-	font-size: 18px;
+	line-height: 18px;
+	font-size: 16px;
 }
 .about-chatblk .chat-right{
-	padding: 15px 20px;
+	padding: 6px 14px;
 }
  /****** hex assisstant end *****/
 
@@ -836,9 +848,12 @@ footer{
 	padding: 18px 40px;
 }
 .about-details{
-	margin-top: 130px;
+	margin-top: 30px;
 }
+.about-msg .about-sld:before{
+	height: 500px
  /****** hex project  end *****/
+}
 
 
 /***** video container ****/
@@ -1069,8 +1084,8 @@ footer{
 		font-size: 16px;
 	}
 	.main-title{
-		font-size: 26px;
-		line-height: 30px;
+		font-size: 22px;
+		line-height: 24px;
 	}
 	/*comman css end*/
 	/*Header*/
@@ -1132,7 +1147,7 @@ footer{
 		margin-bottom: 3em;
 	}
 	.about-details{
-		margin-top: 95px !important;
+		margin-top: 30px !important;
 	}
 	.about-details p{
 		font-size: 16px;
@@ -1143,7 +1158,7 @@ footer{
 	}
 	.about-details .title-btn{
 		font-size: 18px;
-		margin-bottom: 20px;
+		margin-bottom: 16px;
 	}
 	.about-transform .about-details .btn-main:before,
 	.about-details .title-btn:before{
@@ -1235,7 +1250,7 @@ footer{
 	.hextabs-block h4,
 	.hex-project-list li span,
 	.hex-project-list li strong{
-		font-size: 18px;
+		font-size: 16px;
 	}
 
 	.mt-zero{
@@ -1254,7 +1269,7 @@ footer{
 	.about-chatblk .chat-left p,
 	.hex-money li a,
 	.hex-form .hex-receive label{
-		font-size: 16px;
+		font-size: 12px;
 	}
 
 	.hextabs-table .table tr th,
