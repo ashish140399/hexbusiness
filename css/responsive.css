@@ -56,35 +56,178 @@
 
 
 @media(min-width:1800px) and (max-width:1999px){
-	.about-transform .about-details .btn-main{
-		padding: 10px 20px;
-		margin-top: 26px;
+
+	/**** global****/
+	/**** global end *****/
+
+
+
+
+	/*** section 1*******/
+
+
+
+
+	.hex-table-title {
+	    margin-bottom: 15px;
 	}
 	.main-title{
-		font-size: 32px
+		font-size: 34px;
 	}
-	.about-details .title-btn{ 
-		margin-bottom: 10px 
+	.section_heading {
+	    margin: 2em 0 2em 0 !important;
 	}
 	.about-details .main-title {
-	    margin-bottom: 20px;
+	    margin-bottom: 15px;
 	}
-
+	.app-list {
+	    margin: 20px 0;
+	}
+	.about-details .app-list img {
+	    height: 3.5em !important;
+	}
 	.about-img img{
-		max-width: 25em;	
+		max-width: 20em;	
+	}
+	.about-details .title-btn{
+		margin-bottom: 20px
+	}
+	.hex-loan li p span{
+		margin-top: 5px;
+	}
+	.hex-loan li{
+		padding: 8px 15px;
 	}
 
-	.hex-money li a, .hex-money li p, .hex-loan li p, .hex-deposit li p{
-		font-size: 18px
-	}
-	.about-details p{
-		line-height: 30px
-	}
-	.hex-loan li:focus, .hex-loan li:hover{
-		padding: 24px
-	}
 
 
+
+	/******** section 1 end ********/
+
+
+
+
+/***** section 2******/
+ .about-normal .about-img
+ /****** section 2 end *****/
+
+
+
+
+
+
+
+/***** hex mobile******/
+.about-sld .owl-dots{
+    top: 150px !important;
+    position: absolute;
+    left: 230px;
+}
+ /****** hex mobile end *****/
+
+
+
+
+ /***** hex credit******/
+ .about-normal .about-img{
+ 	min-height: 650px
+ }
+ .about-normal .about-img img{
+ 	max-width: 50%;
+ }
+ .about-normal .about-img{
+ 	min-height: 60vh;
+ }
+ /****** hex credit end *****/
+
+
+
+
+
+
+
+
+/***** hex money ******/
+.about-transform .about-details .btn-main{
+	margin-top: 30px;
+	padding: 20px 30px;
+}
+.hextabs-table .table tr td {
+    padding: 10px 0 0;
+}
+.hextabs-table .table tr th{
+	padding: 0 0 10px
+}
+.hextabs-block h4 {
+    margin: 0 0 25px;
+}
+.hextabs-wrapper{
+	margin: 80px auto 0;
+}
+ /****** hex money end *****/
+
+
+
+/***** hex assisstant ******/
+.about-chatwrap h4{
+	margin: 0 0 20px
+}
+.about-chatblk .chat-left{
+	margin-bottom: 15px;
+}
+.about-chatblk .chat-left p{
+	line-height: 26px;
+	font-size: 18px;
+}
+.about-chatblk .chat-right{
+	padding: 15px 20px;
+}
+ /****** hex assisstant end *****/
+
+
+
+ /***** hex project  ******/
+.about-project{
+	margin-top: 5em;
+}
+.about-project .about-details p{
+	margin-bottom: 30px
+}
+.about-project .btn-main{
+	padding: 18px 40px;
+}
+.about-details{
+	margin-top: 130px;
+}
+ /****** hex project  end *****/
+
+
+/***** video container ****/
+.video-container{
+	margin-top: 100px;
+}
+
+
+/****** video container end *****/
+
+
+/*** footer****/
+footer{
+    padding-top: 0px;
+}
+
+.footer-list h4{
+	margin: 0 0 20px
+}
+.footer-list li{
+	margin-bottom: 10px;
+}
+/***** footer end *****/
+	
+
+	
+
+	
 
 
 	/*comman css*/
@@ -133,6 +276,208 @@
 
 
 @media(min-width:1551px) and (max-width:1799px){
+
+
+
+	/**** global****/
+	/**** global end *****/
+
+
+
+
+	/*** section 1*******/
+
+
+
+
+	.hex-table-title {
+	    margin-bottom: 15px;
+	}
+	.main-title{
+		font-size: 34px;
+	}
+	.section_heading {
+	    margin: 1.5em 0 1.5em 0 !important;
+	}
+	.about-details .main-title {
+	    margin-bottom: 15px;
+	}
+	.app-list {
+	    margin: 20px 0;
+	}
+	.about-details .app-list img {
+	    height: 3.5em !important;
+	}
+	.about-img img{
+		max-width: 20em;	
+	}
+	.about-details .title-btn{
+		margin-bottom: 20px
+	}
+	.hex-loan li p span{
+		margin-top: 5px;
+	}
+	.hex-loan li{
+		padding: 8px 15px;
+	}
+
+
+
+
+	/******** section 1 end ********/
+
+
+
+
+/***** section 2******/
+ .about-normal .about-img
+ /****** section 2 end *****/
+
+
+
+
+
+
+
+/***** hex mobile******/
+.about-sld .owl-dots{
+    top: 150px !important;
+    position: absolute;
+    left: 230px;
+}
+ /****** hex mobile end *****/
+
+
+
+
+ /***** hex credit******/
+ .about-normal .about-img{
+ 	min-height: 650px
+ }
+ .about-normal .about-img img{
+ 	max-width: 50%;
+ 	transform: translateX(30%);
+ }
+ .about-normal .about-img{
+ 	min-height: 60vh;
+ }
+ /****** hex credit end *****/
+
+
+
+
+
+
+
+
+/***** hex money ******/
+.hex-btn .btn-main{
+	padding: 14px;
+}
+.hex-form .form-control{
+	height: 50px
+}
+.hexmoneyhsexspan{
+	bottom: 10px;
+}
+.about-transform .about-details .btn-main{
+	margin-top: 30px;
+	padding: 15px 20px;
+}
+.hextabs-table .table tr td {
+    padding: 10px 0 0;
+}
+.hextabs-table .table tr th{
+	padding: 0 0 10px
+}
+.hextabs-block h4 {
+    margin: 0 0 25px;
+}
+.hextabs-wrapper{
+	margin: 80px auto 0;
+}
+ /****** hex money end *****/
+
+
+
+/***** hex assisstant ******/
+.about-chatwrap h4{
+	margin: 0 0 20px
+}
+.about-chatblk .chat-left{
+	margin-bottom: 15px;
+}
+.about-chatblk .chat-left p{
+	line-height: 26px;
+	font-size: 18px;
+}
+.about-chatblk .chat-right{
+	padding: 15px 20px;
+}
+ /****** hex assisstant end *****/
+
+
+
+ /***** hex project  ******/
+ .about-project .about-img img{
+ 	width: 4em !important;
+ }
+ .hex-project-list li span{
+ 	height: 130px
+ }
+.about-project{
+	margin-top: 5em;
+}
+.about-project .about-details p{
+	margin-bottom: 30px
+}
+.about-project .btn-main{
+	padding: 18px 40px;
+}
+.about-details{
+	margin-top: 130px;
+}
+ /****** hex project  end *****/
+
+
+/***** video container ****/
+.video-container{
+	margin-top: 100px;
+}
+
+
+/****** video container end *****/
+
+
+/*** footer****/
+footer{
+    padding-top: 0px;
+}
+
+.footer-list h4{
+	margin: 0 0 20px
+}
+.footer-list li{
+	margin-bottom: 10px;
+}
+/***** footer end *****/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
 	.about-normal .about-img{
 		min-height: 700px
 	}
@@ -164,15 +509,26 @@
 	.hex-table .table tbody tr td {
 	    padding: 10px 0;
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+	*/
 	/*comman css*/
 	.container{
   		max-width: 100%;
   		width: 1410px;
 	}
 
-	.main-title{
-		font-size: 40px;
-	}
+
 	.btn-main{
 		font-size: 16px;
 	}
@@ -270,9 +626,6 @@
 	.footer-details p{
 		font-size: 17px;
 	}
-	.footer-list li{
-		margin-bottom: 22px;
-	}
 	/*index end*/
 }
 
@@ -285,6 +638,259 @@
 
 
 @media(min-width:1351px) and (max-width:1550px){
+
+
+
+
+	/**** global****/
+	.btn-main{
+		padding: 14px 30px !important;
+	}
+	/**** global end *****/
+
+
+
+
+	/*** section 1*******/
+
+
+
+
+	.hex-table-title {
+	    margin-bottom: 15px;
+	}
+	.main-title{
+		font-size: 34px;
+	}
+	.section_heading {
+	    margin: 1.5em 0 1.5em 0 !important;
+	}
+	.about-details .main-title {
+	    margin-bottom: 15px;
+	}
+	.app-list {
+	    margin: 20px 0;
+	}
+	.about-details .app-list img {
+	    height: 3em !important;
+	}
+	.about-img img{
+		max-width: 16em;	
+	}
+	.about-details .title-btn{
+		margin-bottom: 20px
+	}
+	.hex-loan li p span{
+		margin-top: 5px;
+	}
+	.hex-loan li{
+		padding: 8px 15px;
+	}
+
+
+
+
+	/******** section 1 end ********/
+
+
+
+
+/***** section 2******/
+ .about-normal .about-img
+ /****** section 2 end *****/
+
+
+
+
+
+
+
+/***** hex mobile******/
+.about-sld:before{
+	height: 400px;
+	top: 50px;	
+}
+.about-sld .owl-dots{
+    top: 15px !important;
+    position: absolute;
+    left: 230px;
+    transform: scale(0.8);
+}
+.hex-loan li img{
+	width: 48px!important;
+    height: 48px!important;
+}
+ /****** hex mobile end *****/
+
+
+
+
+ /***** hex credit******/
+ .about-normal .about-img:before{
+ 	height: 500px
+ }
+ .about-normal .about-img{
+ 	min-height: 650px
+ }
+ .about-normal .about-img img{
+ 	max-width: 50%;
+ 	transform: translateX(30%);
+ }
+ .about-normal .about-img{
+ 	min-height: 60vh;
+ }
+ /****** hex credit end *****/
+
+
+
+
+
+
+
+
+/***** hex money ******/
+.hex-btn .btn-main{
+	padding: 14px;
+}
+.hex-form .form-control{
+	height: 50px
+}
+.hexmoneyhsexspan{
+	bottom: 10px;
+}
+.about-transform .about-details .btn-main{
+	margin-top: 30px;
+	padding: 15px 20px;
+}
+.hextabs-table .table tr td {
+    padding: 10px 0 0;
+}
+.hextabs-table .table tr th{
+	padding: 0 0 10px
+}
+.hextabs-block h4 {
+    margin: 0 0 25px;
+}
+.hextabs-wrapper{
+	margin: 80px auto 0;
+}
+.about-transform .about-sld .owl-dots{
+	top: 110px !important
+}
+.hextabs-block{
+	padding: 30px 35px;
+}
+
+
+
+
+
+
+ /****** hex money end *****/
+
+
+
+/***** hex assisstant ******/
+.btn-msg{
+	padding: 10px;
+	font-size: 18px;
+	margin: 10px 0 0;
+}
+.hex-money li{
+	padding: 5px 15px 
+}
+.about-msg .about-details{
+	padding-left: 50px;
+}
+.about-chatwrap h4{
+	margin: 0 0 20px
+}
+.about-chatblk .chat-left{
+	margin-bottom: 15px;
+}
+.about-chatblk .chat-left p{
+	line-height: 24px;
+	font-size: 18px;
+}
+.about-chatblk .chat-right{
+	padding: 15px 20px;
+}
+ /****** hex assisstant end *****/
+
+
+
+ /***** hex project  ******/
+ .about-project .about-img img{
+ 	width: 4em !important;
+ }
+ .hex-project-list li span{
+ 	height: 130px
+ }
+.about-project{
+	margin-top: 5em;
+}
+.about-project .about-details p{
+	margin-bottom: 30px
+}
+.about-project .btn-main{
+	padding: 18px 40px;
+}
+.about-details{
+	margin-top: 130px;
+}
+ /****** hex project  end *****/
+
+
+/***** video container ****/
+.video-container{
+	margin-top: 50px;
+	padding-top: 50px;
+}
+
+
+/****** video container end *****/
+
+
+/*** footer****/
+footer{
+    padding-top: 0px;
+}
+
+.footer-list h4{
+	margin: 0 0 20px
+}
+.footer-list li{
+	margin-bottom: 10px;
+}
+/***** footer end *****/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*
 	.app-list{
 		margin: 18px 0
 	}
@@ -443,7 +1049,7 @@
 		padding: 15px;
 		padding-right:0; 
 	}
-
+*/
 
 
 
@@ -526,7 +1132,7 @@
 		margin-bottom: 3em;
 	}
 	.about-details{
-		margin-top: 0px;
+		margin-top: 95px !important;
 	}
 	.about-details p{
 		font-size: 16px;
@@ -2845,7 +3451,7 @@
 		margin-bottom: 30px;
 	}
 	.about-project, .about-msg, .about-transform, .about-normal, .about-wrapper{
-		margin-bottom: 80px;
+		margin-bottom: 20px;
 	}
 	.about-details{
 		padding-right: 0;

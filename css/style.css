@@ -596,7 +596,7 @@ p{
   content: '';
   position: absolute;
   width: 90%;
-  height: -webkit-fill-available;
+  height:500px;
   right: -40%;
   top: 100px;
   z-index: -1;

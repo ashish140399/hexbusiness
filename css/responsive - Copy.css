@@ -18,12 +18,6 @@
 	/*index end*/
 }
 
-
-
-
-
-
-
 @media(min-width:2000px) and (max-width:2560px){
 	/*comman css*/
 	.container{
@@ -47,13 +41,6 @@
 	}
 	/*index end*/
 }
-
-
-
-
-
-
-
 
 @media(min-width:1800px) and (max-width:1999px){
 
@@ -109,15 +96,6 @@
 	}
 	/*index end*/
 }
-
-
-
-
-
-
-
-
-
 
 @media(min-width:1551px) and (max-width:1799px){
 	.hex-table .table tbody tr td {
@@ -234,15 +212,6 @@
 	}
 	/*index end*/
 }
-
-
-
-
-
-
-
-
-
 @media(min-width:1351px) and (max-width:1550px){
 	.about-details .app-list img{
 		height: 3em !important;
@@ -610,13 +579,6 @@
 	/*another end*/
 }
 
-
-
-
-
-
-
-
 @media(min-width:1200px) and (max-width:1350px){
 	.hex-table .table tbody tr td {
 	    padding: 10px 0;
@@ -894,17 +856,6 @@
 	}
 	/*another end*/
 }
-
-
-
-
-
-
-
-
-
-
-
 
 @media(min-width:1025px) and (max-width:1199px){
 	.about-details p{
@@ -1256,19 +1207,6 @@
 	}
 	/*another end*/
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media(min-width:992px) and (max-width:1024px){
 	.app-list li a img {
 	    width: auto!important;
@@ -1618,19 +1556,6 @@
 	}
 	/*another end*/
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media(min-width:768px) and (max-width:991px){
 	.about-normal .about-img{
 		margin-top: 0px;
@@ -2077,20 +2002,6 @@
 	}
 	/*another end*/
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media(min-width:448px) and (max-width:767px){
 	.about-normal .about-img{
 		margin-top: 0px;
@@ -2578,17 +2489,6 @@
 	}
 	/*another end*/
 }
-
-
-
-
-
-
-
-
-
-
-
 @media(max-width:447px){
 	.about-normal .about-img{
 		margin-top: 0px;
