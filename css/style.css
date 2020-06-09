@@ -711,7 +711,7 @@ p{
 .about-sld .owl-controls .owl-dots{
   position: absolute;
   left: 230px;
-  top: 16px;
+  top: 120px;
   z-index: 1;
 }
 .about-sld .owl-controls .owl-dots .owl-dot{
