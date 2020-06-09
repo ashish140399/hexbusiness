@@ -1216,12 +1216,7 @@ footer{
 	.footer-details p{
 		line-height: 30px;
 	}
-	.footer-list li{
-		margin-bottom: 24px;
-	}
-	.footer-list h4{
-		margin-bottom: 42px;
-	}
+
 
 	.copyright-wrapper{
 		padding: 25px 0;
@@ -1304,6 +1299,306 @@ footer{
 
 
 @media(min-width:1200px) and (max-width:1350px){
+
+
+
+
+
+
+
+		/**** global****/
+		.about-msg .about-details, .about-normal .about-details{
+			padding-left: 80px;
+		}
+	.navbar-default .navbar-nav>li {
+		margin-right: 25px;
+		text-align: center;
+	}
+	.btn-main{
+		padding: 10px 30px !important;
+	}
+	.navbar-default{
+		    padding: 20px 0 ;
+	}
+	.navbar-brand>img{
+		width: 12em;
+	}
+	/**** global end *****/
+
+
+
+
+	/*** section 1*******/
+
+
+
+
+	.hex-table-title {
+	    margin-bottom: 15px;
+	}
+	.main-title{
+		font-size: 34px;
+	}
+	.section_heading {
+	    margin: 1.5em 0 1.5em 0 !important;
+	}
+	.about-details .main-title {
+	    margin-bottom: 15px;
+	    font-size: 24px;
+    	line-height: 26px;
+	}
+	.app-list {
+	    margin: 20px 0;
+	}
+	.about-details .app-list img {
+	    height: 2.5em !important;
+	}
+	.about-img img{
+		max-width: 16em;	
+	}
+	.about-details .title-btn{
+		margin-bottom: 20px
+	}
+	.hex-loan li p span{
+		margin-top: 0px;
+	}
+	.hex-loan li{
+		padding: 5px 15px;
+	}
+.hex-money li img{
+	width: 38px!important;
+    height: 38px!important;
+        margin-right: 15px;
+}
+
+
+
+	/******** section 1 end ********/
+
+
+
+
+/***** section 2******/
+ .about-normal .about-img
+ /****** section 2 end *****/
+
+
+
+
+
+
+
+/***** hex mobile******/
+.about-sld:before{
+	height: 400px;
+	top: 50px;	
+}
+.about-sld .owl-dots{
+    top: 15px !important;
+    position: absolute;
+    left: 230px;
+    transform: scale(0.8);
+}
+.hex-loan li img{
+	width: 38px!important;
+    height: 38px!important;
+}
+ /****** hex mobile end *****/
+
+
+
+
+ /***** hex credit******/
+ .about-normal .about-img:before{
+ 	height: 500px
+ }
+ .about-normal .about-img{
+ 	min-height: 650px
+ }
+ .about-normal .about-img img{
+ 	max-width: 40%;
+ 	transform: translateX(50%);
+ }
+ .about-normal .about-img{
+ 	min-height: 60vh;
+ }
+ .about-details p{
+ 	margin-bottom: 10px
+ }
+ /****** hex credit end *****/
+
+
+
+
+
+
+
+
+/***** hex money ******/
+.about-transform .about-details{
+	margin-top: 80px
+}
+.hex-btn .btn-main{
+	padding: 14px;
+}
+.hex-form .form-control{
+	height: 44px
+}
+.hexmoneyhsexspan{
+	bottom: 10px;
+}
+.about-transform .about-details .btn-main{
+	margin-top: 30px;
+	padding: 15px 20px;
+}
+.hextabs-table .table tr td {
+    padding: 10px 0 0;
+}
+.hextabs-table .table tr th{
+	padding: 0 0 10px
+}
+.hextabs-block h4 {
+    margin: 0 0 15px;
+}
+.hextabs-wrapper{
+	margin: 10px auto 0;
+}
+.about-transform .about-sld .owl-dots{
+	top: 95px !important
+}
+.hextabs-block{
+	padding: 30px 35px;
+}
+
+.hex-form .hex-select, .hex-form .hex-receive, .hex-form .hex-send{
+	margin-bottom: 20px
+}
+
+
+
+
+ /****** hex money end *****/
+
+
+
+/***** hex assisstant ******/
+.btn-msg{
+	padding: 10px;
+	font-size: 18px;
+	margin: 10px 0 0;
+}
+.hex-money li{
+	padding: 5px 15px 
+}
+.about-msg .about-details{
+	padding-left: 50px;
+}
+.about-chatwrap h4{
+	margin: 0 0 20px
+}
+.about-chatblk .chat-left{
+	padding: 8px 14px;
+}
+.about-chatblk .chat-left, .about-chatblk .chat-right{
+	margin-bottom: 10px
+}
+.about-chatblk .chat-left p{
+	line-height: 18px;
+	font-size: 16px;
+}
+.about-chatblk .chat-right{
+	padding: 6px 14px;
+}
+ /****** hex assisstant end *****/
+
+
+
+ /***** hex project  ******/
+ .hex-project-list li strong{
+ 	margin: 10px 0 0;
+ }
+ .hex-project-list li{
+ 	margin-bottom: 20px;
+ }
+ .hex-project-list li a{
+ 	width: 13em;
+    margin: auto;
+ }
+ .about-project .about-img img{
+ 	width: 4em !important;
+ }
+ .hex-project-list li span{
+ 	height: 130px
+ }
+.about-project{
+	margin-top: 5em;
+}
+.about-project .about-details p{
+	margin-bottom: 30px
+}
+.about-project .btn-main{
+	padding: 18px 40px;
+}
+.about-details{
+	margin-top: 30px;
+}
+.about-msg .about-sld:before{
+	height: 500px
+ /****** hex project  end *****/
+}
+
+
+/***** video container ****/
+.video-container{
+	margin-top: 50px;
+	padding-top: 50px;
+}
+.video-details .main-title{
+	margin-bottom: 20px;
+}
+.video-details p{
+	margin-bottom: 20px;
+}
+
+/****** video container end *****/
+
+
+/*** footer****/
+footer{
+    padding-top: 0px;
+}
+
+.footer-list h4{
+	margin: 0 0 20px
+}
+.footer-list li{
+	margin-bottom: 10px;
+}
+/***** footer end *****/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+
+
+
 	.about-normal .about-img{
 		min-height: 700px
 	}
@@ -1320,9 +1615,7 @@ footer{
 	.about-details .title-btn{ 
 		margin-bottom: 20px 
 	}
-	.about-details .main-title {
-	    margin-bottom: 20px;
-	}
+
 	.about-transform .about-img{
 		min-height: 70vh
 	}
@@ -1375,14 +1668,7 @@ footer{
 		margin-bottom: 15px;
 	}
 
-
-
-	.about-details .app-list img{
-		height: 3em !important;
-    	width: auto !important;
-	}
-
-
+*/
 	/*comman css*/
 	.container{
   		max-width: 100%;
@@ -1400,12 +1686,15 @@ footer{
 	/*Header*/
 	.navbar-default .container{
 		width: 100%;
+		padding: 0 5%;
 	}
 	.navbar-default .navbar-nav>li>a{
 		font-size: 15px;
 	}
 	.navbar-default .navbar-nav>li>.btn-main{
-		margin-left: 55px;
+		margin-left: 30px;
+	    font-size: 14px;
+	    padding: 10px 15px !important;
 	}
 	.navbar-nav>li>.dropdown-menu li a{
 		font-size: 12px;
@@ -1413,8 +1702,8 @@ footer{
 	/*Header end*/
 	/*index*/
 	.banner-details h1{
-		font-size: 50px;
-		margin: 30px 0;
+		font-size: 36px;
+		margin: 20px 0;
 	}
 	.banner-details p{
 		font-size: 16px;
@@ -1449,7 +1738,7 @@ footer{
 	}
 
 	.about-project, .about-msg, .about-transform, .about-normal, .about-wrapper{
-		margin-bottom: 180px;
+		margin-bottom: 3em;
 	}
 	.about-details{
 		margin-top: 0px;
@@ -1458,12 +1747,9 @@ footer{
 		font-size: 15px;
 		line-height: 30px;
 	}
-	.about-details .main-title{
-		margin-bottom: 12px;
-		font-size: 30px;
-	}
 	.about-details .title-btn{
-		font-size: 18px;
+		font-size: 16px;
+    	padding: 14px 20px;
 		margin-bottom: 12px;
 	}
 	.about-transform .about-details .btn-main:before,
@@ -1537,11 +1823,11 @@ footer{
 	/*index end*/
 	/*another*/
 	.main-title{
-		font-size: 34px;
-		line-height: 34px;
+		font-size: 28px;
+		line-height: 28px;
 	}
 	.banner-details h1{
-		line-height: 50px;
+		line-height: 30px;
 	}
 	.banner-details p{
 		line-height: 28px;
@@ -1564,7 +1850,7 @@ footer{
 	}
 	.hex-money li, .hex-deposit,
 	.hex-loan li:hover, .hex-loan li:focus{
-		padding: 20px 30px;
+		padding: 5px 20px;
 	}
 	.hex-loan li:focus p, .hex-loan li:hover p{
 		padding-right: 0;
@@ -1577,7 +1863,7 @@ footer{
 		margin-right: 15px;
 	}
 	.hex-money-list .hex-money li{
-		padding: 20px;
+		padding: 5px 20px;
 	}
 
 	.hex-form span,
@@ -1607,7 +1893,8 @@ footer{
 	.about-chatblk .chat-left p,
 	.hex-money li a,
 	.hex-form .hex-receive label{
-		font-size: 14px;
+		font-size: 12px;
+		margin-top: 0px;
 	}
 
 	.hextabs-table .table-footer p span,
@@ -1623,6 +1910,7 @@ footer{
 	}
 	.hextabs-table .hextabs-block{
 		margin-left: 0;
+		margin-top: 56px;
 	}
 	.about-transform .owl-controls .owl-nav .owl-next{
 		right: 0;
@@ -1634,10 +1922,7 @@ footer{
 	.about-chatwrap h4{
 		font-size: 16px;
 	}
-	.about-chatblk .chat-left, .about-chatblk .chat-right{
-		min-height: 40px;
-		padding: 14px 20px;
-	}
+
 
 	.hex-project-list{
 		width: 90%;
@@ -1657,6 +1942,286 @@ footer{
 
 
 @media(min-width:1025px) and (max-width:1199px){
+
+
+
+
+
+
+
+
+
+.hex-money li img{
+	width: 38px!important;
+    height: 38px!important;
+        margin-right: 15px;
+}
+
+
+
+	/******** section 1 end ********/
+
+
+
+
+/***** hex business******/
+.hex-table .table thead tr th{
+	    padding: 0 0 10px;
+}
+.hex-table-title{
+	margin-bottom: 20px
+
+}
+
+.hex-table .table tbody tr td{
+	padding: 8px 0 0 0;
+}
+
+
+
+
+
+
+
+
+
+ /****** hex business end *****/
+
+
+
+
+
+
+/***** hex mobile******/
+.about-sld:before{
+	height: 400px;
+	top: 50px;	
+}
+.about-sld .owl-dots{
+    top: 15px !important;
+    position: absolute;
+    left: 230px;
+    transform: scale(0.8);
+}
+.hex-loan li img{
+	width: 32px!important;
+    height: 32px!important;
+}
+.about-details .app-list img {
+    height: 2.5em !important;
+}
+.app-list{
+	margin: 20px 0
+}
+.hex-loan li p span{
+	margin-top: 0;
+}
+ /****** hex mobile end *****/
+
+
+
+
+ /***** hex credit******/
+ .about-normal .about-img:before{
+ 	height: 500px
+ }
+ .about-normal .about-img{
+ 	min-height: 650px
+ }
+ .about-normal .about-img img{
+ 	max-width: 40%;
+ 	transform: translateX(0%);
+ }
+ .about-normal .about-img{
+ 	min-height: 50vh;
+ }
+ .about-details p{
+ 	margin-bottom: 0px
+ }
+ /****** hex credit end *****/
+
+
+
+
+
+
+
+
+/***** hex money ******/
+.about-transform .about-details {
+    margin-top: 80px;
+}
+.hex-btn .btn-main{
+	padding: 14px;
+}
+.hex-form .form-control{
+	height: 44px
+}
+.hexmoneyhsexspan{
+	bottom: 10px;
+}
+.about-transform .about-details .btn-main{
+	margin-top: 30px;
+	padding: 15px 20px;
+}
+.hextabs-table .table tr td {
+    padding: 10px 0 0;
+}
+.hextabs-table .table tr th{
+	padding: 0 0 10px
+}
+.hextabs-block h4 {
+    margin: 0 0 15px;
+}
+.hextabs-wrapper{
+	margin: 0px auto 0;
+}
+.about-transform .about-sld .owl-dots{
+	top: 95px !important
+}
+.hextabs-block{
+	padding: 30px 35px;
+}
+
+.hex-form .hex-select, .hex-form .hex-receive, .hex-form .hex-send{
+	margin-bottom: 20px
+}
+
+
+
+
+ /****** hex money end *****/
+
+
+
+/***** hex assisstant ******/
+.btn-msg{
+	padding: 10px;
+	font-size: 18px;
+	margin: 10px 0 0;
+}
+.hex-money li{
+	padding: 5px 15px 
+}
+.about-msg .about-details{
+	padding-left: 50px;
+}
+.about-chatwrap h4{
+	margin: 0 0 20px
+}
+.about-chatblk .chat-left{
+	padding: 8px 14px;
+}
+.about-chatblk .chat-left, .about-chatblk .chat-right{
+	margin-bottom: 10px
+}
+.about-chatblk .chat-left p{
+	line-height: 18px;
+	font-size: 16px;
+}
+.about-chatblk .chat-right{
+	padding: 6px 14px;
+}
+ /****** hex assisstant end *****/
+
+
+
+ /***** hex project  ******/
+ .about-project .about-img{
+ 	min-height: 50vh
+ }
+ .hex-project-list li {
+    margin-bottom: 20px;
+}
+ .about-project .about-img img{
+ 	width: 4em !important;
+ }
+ .hex-project-list li span{
+ 	width: 8em;
+    margin: auto;
+    height: 7em;
+ }
+.about-project{
+	margin-top: 5em;
+}
+.about-project .about-details p{
+	margin-bottom: 30px
+}
+.about-project .btn-main{
+	padding: 10px 20px;
+}
+.about-details{
+	margin-top: 30px;
+}
+.about-msg .about-sld:before{
+	height: 500px
+ /****** hex project  end *****/
+}
+
+
+
+
+
+/***** video container ****/
+.video-container{
+	margin-top: 50px;
+	padding-top: 50px;
+}
+
+
+/****** video container end *****/
+
+
+/*** footer****/
+footer{
+    padding-top: 0px;
+}
+
+.footer-list h4{
+	margin: 0 0 20px
+}
+.footer-list li{
+	margin-bottom: 10px;
+}
+.join-btn .btn-main {
+    padding: 10px 10px;
+}
+/***** footer end *****/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*
 	.about-transform .about-img{
 		min-height: 450px
 	}
@@ -1763,7 +2328,7 @@ footer{
 	.about-transform .about-sld .owl-controls .owl-dots{
 		top: 95px
 	}
-
+*/
 
 
 	/*comman css*/
@@ -1810,9 +2375,7 @@ footer{
 		font-size: 14px;
 	}
 
-	.hex-table .table tbody tr td{
-		padding: 15px 0;
-	}
+	
 	.hex-block{
 		padding: 20px;
 	}
@@ -1824,7 +2387,8 @@ footer{
 	.hex-deposit li p,
 	.hex-table h5,
 	.hex-table-title h4 span{
-		font-size: 16px;
+		font-size: 14px;
+    	line-height: 24px;
 	}
 	.hex-table-title .live-btn,
 	.hex-table .table thead tr th{
@@ -1851,7 +2415,7 @@ footer{
 		margin-bottom: 20px;
 	}
 	.about-project, .about-msg, .about-transform, .about-normal, .about-wrapper{
-		margin-bottom: 80px;
+		margin-bottom: 30px;
 	}
 	/*.about-sld .owl-controls .owl-dots{
 		top: 64px;
@@ -1861,8 +2425,8 @@ footer{
 		margin-top: 50px;
 	}
 	.about-details p{
-		font-size: 15px;
-		line-height: 30px;
+		font-size: 16px;
+		line-height: 22px;
 	}
 	.about-details .main-title{
 		margin-bottom: 10px;
@@ -1894,11 +2458,11 @@ footer{
 		padding-left: 50px;
 	}
 	.hex-money li, .hex-deposit{
-		margin-bottom: 20px;
+		margin-bottom: 0px;
 		padding: 20px;
 	}
 	.about-img>img{
-		width: 70%!important;
+		width: 40%!important;
 	}
 	.btn-msg{
 		font-size: 16px;
@@ -1925,7 +2489,7 @@ footer{
 	}
 
 	.join-wrapepr{
-		min-height: 200px;
+		min-height: 100px;
 	}
 
 	footer{
@@ -1993,11 +2557,11 @@ footer{
 	}
 
 	.hex-loan li{
-		padding: 10px;
+		padding: 7px;
 	}
 	.hex-money li, .hex-deposit,
 	.hex-loan li:hover, .hex-loan li:focus{
-		padding: 20px 30px;
+		padding: 10px 0 0 0;
 	}
 	.hex-loan li:focus p, .hex-loan li:hover p{
 		padding-right: 0;
@@ -2010,7 +2574,7 @@ footer{
 		margin-right: 15px;
 	}
 	.hex-money-list .hex-money li{
-		padding: 20px;
+		padding: 5px 0 0 0;
 	}
 
 	.hex-form span,
@@ -2051,6 +2615,7 @@ footer{
 	}
 	.hextabs-table .table-footer p span{
 		margin-right: 10px;
+		margin-top: 30px;
 	}
 	.hextabs-table .hextabs-block{
 		margin-left: 0;
@@ -2079,14 +2644,7 @@ footer{
 	.about-chatwrap h4{
 		font-size: 16px;
 	}
-	.about-chatblk .chat-left, .about-chatblk .chat-right{
-		min-height: 40px;
-		padding: 14px 20px;
-	}
 
-	.hex-project-list li span{
-		height: 120px;
-	}
 	.hex-project-list li span img{
 		max-width: 42%!important;
 	}
