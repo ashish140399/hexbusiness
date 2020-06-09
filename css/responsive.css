@@ -4445,7 +4445,7 @@ footer{
 	top: 50px;	
 }
 .about-sld .owl-dots{
-    top: 35px !important;
+    top: 15px !important;
     position: absolute;
     left: 230px;
     transform: scale(0.8);
@@ -4511,7 +4511,7 @@ footer{
 	bottom: 10px;
 }
 .about-transform .about-details .btn-main{
-	margin-top: 30px;
+	margin-top: 20px;
 	padding: 10px 15px;
 }
 .hextabs-table .table tr td {
