@@ -1909,10 +1909,13 @@ footer{
   display: flex;
   align-items: center;
   font-family: 'Montserrat';
+  font-weight: 500;
+  border: 2px solid #fff;
 }
 .nav-hexbtn .btn-main i{
   margin-left: 8px;
-  color: #1d66ff
+  color: #fff;
+
 }
 .nav-hexbtn .btn-main:hover i{
   color: #fff
@@ -1922,9 +1925,9 @@ footer{
   display: inline-block;
     width: 8em;
     height: 18px;
-  margin-left: 5px;
+  margin-left: 8px;
   background-repeat: no-repeat;
-      background-image: url(../images/logo.png);
+      background-image: url(../images/hex-business-white.png);
      background-position: center;
     background-size: 100% 100%;
 }
@@ -1932,19 +1935,20 @@ footer{
   color: #fff !important; 
    background-image: linear-gradient(to left, #9045F4 , #00B8FA);
 }
+
 .nav-hexbtn .btn-main:hover div{
-    background-image: url(../images/hex-business-white.png);
+    background-image: url(../images/logo.png);
 }
 .nav-hexbtn .btn-main:hover{
-    color: #fff;
-    border: 1px solid transparent;
-     background: transparent;
-     background-image: linear-gradient(to left, #9045F4 , #00B8FA) !important;
+  border: 2px solid #fff !important;
+    color: #1d66ff !important;
+     background: #fff !important;
 }
+/*
 .nav-hexbtn .hex-btn:hover .hex-btn-outer{
 background-image: linear-gradient(to left, #fff , #fff) !important;
 }
-
+*/
 
 
 .hex-btn-light .btn-main,
@@ -2016,4 +2020,10 @@ background-image: linear-gradient(to left, #fff , #fff) !important;
 .hex-available b{
   font-size: 16px;
   color: #1e266d;
+}
+
+
+.nav-hexbtn  .hex-btn .btn-main {
+  background: transparent;
+  color: #fff;
 }
