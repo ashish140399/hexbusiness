@@ -56,6 +56,15 @@
 
 
 @media(min-width:1800px) and (max-width:1999px){
+	.welcome_section{
+	   margin: 10% 14% 1% 14%;
+	}
+	.overview_section{
+	   margin: 2em 14%;
+	}
+	.hexsection{
+		margin: 2em 14%;
+	}
 	
 	
 	.about-sld .owl-controls .owl-dots {
