@@ -1256,12 +1256,13 @@ footer{
 	.hex-btn .btn-main,
 	.hex-form .form-control,
 	.hex-form label,
-	.hextabs-block h4,
 	.hex-project-list li span,
 	.hex-project-list li strong{
 		font-size: 16px;
 	}
-
+	.hextabs-block h4{
+		font-size: 18px;
+	}
 	.mt-zero{
 		margin-top: 0;
 	}

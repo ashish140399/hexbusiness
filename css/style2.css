@@ -217,7 +217,7 @@ p{
   float: right;
   margin-top: 8px;
   margin-left: 8px;
-  background-image: url('../images/icons/arrow-down.png');
+  background-image: url('../images/icons/expand.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
@@ -473,6 +473,7 @@ p{
   font-weight: 600;
   color: #171f68;
   margin: 0;
+  font-family: 'Montserrat'
 }
 
 .hex-table .table{
@@ -480,7 +481,7 @@ p{
 }
 .hextabs-table .table tr th,
 .hex-table .table thead tr th{
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   color: #171f68;
   border-color: #f1f1f1;
@@ -1131,6 +1132,7 @@ p{
   position: relative;
   display: block;
   margin-bottom: 40px;
+  font-family: "Montserrat";
 }
  .hex-form label{
   font-size: 20px;
@@ -1827,8 +1829,12 @@ footer{
 
 
 .overview_section .hex-table .table tbody tr td p span{
+  color: #858ab0;
     margin: 0 5px;
     font-family: 'Montserrat';
+}
+.overview_section .hex-table .table tbody tr td p span b{
+  color: #1e266d;
 }
 
 .overview_section .hex-table .table tbody tr td{
@@ -1889,7 +1895,7 @@ footer{
   display: inherit;
 }
 .welcome_usrname b{
-  color: #f68b24 !important
+  color: #1e266d !important
 }
 .welcome_usrname span{
   margin-left: 10px;
@@ -1994,4 +2000,20 @@ background-image: linear-gradient(to left, #fff , #fff) !important;
 }
 .navbar-collapse:after{
   content: none;
+}
+
+.overview_rate p{
+  
+}
+.overview_rate_sec_tbody tr td:nth-child(even) p{
+  margin-left: auto;
+  margin-right: 18%;
+}
+.overview_rate_sec_thead tr th:nth-child(even) {
+ padding-right: 10% !important;
+    text-align: right ;
+}
+.hex-available b{
+  font-size: 16px;
+  color: #1e266d;
 }
