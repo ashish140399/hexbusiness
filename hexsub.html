@@ -24,7 +24,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="LOGO"></a>
+                <a class="navbar-brand" href="index.html"><img src="images/logo-white.png" alt="LOGO"></a>
             </div>
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -61,7 +61,7 @@
                           <li><a href="#">Page3</a></li>
                         </ul>
                     </li>
-                    <li><a href="#" class="btn-main">Approve Metamask</a></li>
+                    <li><a href="#" class="nav_button">Go to <img src="images/hex-business-white.png" alt="LOGO"></a></li>
             </div>
         </div>
     </nav>
@@ -78,6 +78,11 @@
             </div>
             <div>
                 <span>Your Wallet Balance</span>
+                <span class="welcome_col_span">
+                    <span><img src="images/icons/receive-form.png"></span>
+                    <span><b>1.000.000</b></span>
+                    <span>TRX</span>
+                </span>
                 <span class="welcome_col_span">
                     <span><img src="images/icons/receive-form.png"></span>
                     <span><b>1.000.000</b></span>
@@ -115,7 +120,7 @@
                     <h4>Transform HEX to HXY</h4>
                     <div class="hex-form">
                         <div class="hex-select">
-                            <label>Select</label>
+                            <label>Send</label>
                             <select class="form-control">
                                 <option class="placeholder">HEX - hex</option>
                                 <option>HXY - hex money</option>
@@ -128,7 +133,7 @@
                             <span>HXY</span>
                         </div>
                         <div class="hex-available">
-                            <label>Available</label>
+                            <label>Receive</label>
                             <div>
                                 <img src="images/icons/receive-form.png">
                                 <label>100</label>
@@ -136,7 +141,10 @@
                             </div>
                         </div>
                         <div class="hex-btn">
-                            <button href="#" type="submit" class="btn-main">Transform</button>
+                            <div class="hex-btn-outer">
+                                <button href="#" type="submit" class="btn-main">Transform</button>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -170,7 +178,10 @@
                             </div>
                         </div>
                         <div class="hex-btn">
-                            <button href="#" type="submit" class="btn-main">Proceed</button>
+                            <div class="hex-btn-outer">
+                                <button href="#" type="submit" class="btn-main">Freeze</button>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -201,13 +212,22 @@
                                 <span>HXY</span>
                             </div>
                         </div>
+                        <div class="hex-receive">
+                            <div>
+                                <input type="text" class="form-control" placeholder="500.000">
+                                <span>USDC</span>
+                            </div>
+                        </div>
                         <div class="hex-available">
                             <label>Expire in</label>
                              <b>10:00</b>
                         
                         </div>
                         <div class="hex-btn">
-                            <button href="#" type="submit" class="btn-main">Claim</button>
+                            <div class="hex-btn-outer">
+                                <button href="#" type="submit" class="btn-main">Claim</button>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -223,6 +243,127 @@
 
         </div>
     </section>
+
+
+
+     <section class="overview_section">
+        <div class="hex-block wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.40s" style="visibility: visible; animation-duration: 2s; animation-delay: 0.4s; animation-name: fadeInLeft;">
+            <div class="hex-table">
+                <div class="hex-table-title">
+                    <h5>Frozen</h5>
+                </div>
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th width="5%">#</th>
+                                <th width="20%">Amount</th>
+                                <th width="20%">Interest</th>
+                                <th width="20%"></th>
+                                <th width="35%">Until Unfreeze</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td width="5%"><p>1</p></td>
+                                <td width="20%">
+                                    <p>
+                                        <img src="images/icons/receive-form.png">
+                                        <span><b>100</b></span>
+                                        <span>HXY</span>
+                                    </p>
+                                </td>
+                                <td width="20%">
+                                    <p>
+                                        <span><b>Earn</b></span>
+                                        <img src="images/icons/receive-form.png">
+                                        <span><b>100</b></span>
+                                        <span>HXY</span>
+                                    </p>
+                                </td>
+                                <td width="20%">
+                                    <p style="width: 100%">
+                                        <button href="#" type="submit" class="btn-main">Capitalize</button>
+                                    </p>
+                                </td>
+                                <td width="35%">
+                                    <p>
+                                        <span><b>2020.10.16 16:34 CET</b></span>
+                                        <span>16 Days Left</span>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="5%"><p>1</p></td>
+                                <td width="20%">
+                                    <p>
+                                        <img src="images/icons/receive-form.png">
+                                        <span><b>100</b></span>
+                                        <span>HXY</span>
+                                    </p>
+                                </td>
+                                <td width="20%">
+                                    <p>
+                                        <span><b>Earn</b></span>
+                                        <img src="images/icons/receive-form.png">
+                                        <span><b>100</b></span>
+                                        <span>HXY</span>
+                                    </p>
+                                </td>
+                                <td width="20%">
+                                    <p style="width: 100%">
+                                        <button href="#" type="submit" class="btn-main">Capitalize</button>
+                                    </p>
+                                </td>
+                                <td width="35%">
+                                    <p>
+                                        <span><b>2020.10.16 16:34 CET</b></span>
+                                        <span>16 Days Left</span>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="5%"><p>1</p></td>
+                                <td width="20%">
+                                    <p>
+                                        <img src="images/icons/receive-form.png">
+                                        <span><b>100</b></span>
+                                        <span>HXY</span>
+                                    </p>
+                                </td>
+                                <td width="20%">
+                                    <p>
+                                        <span><b>Earn</b></span>
+                                        <img src="images/icons/receive-form.png">
+                                        <span><b>100</b></span>
+                                        <span>HXY</span>
+                                    </p>
+                                </td>
+                                <td width="20%">
+                                    <p style="width: 100%">
+                                        <button href="#" type="submit" class="btn-main">Capitalize</button>
+                                    </p>
+                                </td>
+                                <td width="35%">
+                                    
+                                       <div class="hex-btn">
+                                            <div class="hex-btn-outer">
+                                                <button href="#" type="submit" class="btn-main">Claim</button>
+                                            </div>
+                                            
+                                        </div>
+                                
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
 
 
 
@@ -323,59 +464,7 @@
     </section>
 
 
-    <section class="overview_section">
-        <div class="hex-block wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.40s" style="visibility: visible; animation-duration: 2s; animation-delay: 0.4s; animation-name: fadeInLeft;">
-            <div class="hex-table">
-                <div class="hex-table-title">
-                    <h5>Frozen</h5>
-                </div>
-                <div class="table-responsive">
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th width="5%">#</th>
-                                <th width="20%">Amount</th>
-                                <th width="20%">Interest</th>
-                                <th width="20%"></th>
-                                <th width="35%">Until Unfreeze</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td width="5%"><p>1</p></td>
-                                <td width="20%">
-                                    <p>
-                                        <img src="images/icons/receive-form.png">
-                                        <span><b>100</b></span>
-                                        <span>HXY</span>
-                                    </p>
-                                </td>
-                                <td width="20%">
-                                    <p>
-                                        <span><b>Earn</b></span>
-                                        <img src="images/icons/receive-form.png">
-                                        <span><b>100</b></span>
-                                        <span>HXY</span>
-                                    </p>
-                                </td>
-                                <td width="20%">
-                                    <p style="width: 100%">
-                                        <button href="#" type="submit" class="btn-main">Capitalize</button>
-                                    </p>
-                                </td>
-                                <td width="35%">
-                                    <p>
-                                        <span><b>2020.10.16 16:34 CET</b></span>
-                                        <span>16 Days Left</span>
-                                    </p>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </div>
-    </section>
+   
 
 
 
@@ -419,14 +508,14 @@
                     <div class="footer-blk-one">
                         <div class="footer-details">
                             <a href="#" class="ft-logo">
-                                <img src="images/logo.png" alt="logo">
+                                <img src="images/logo-white.png" alt="logo">
                             </a>
                             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et. </p>
                             <ul class="footer-social">
                                 <li><a href="#"><i class="fa fa-paper-plane"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                             </ul>
-                            <a href="#" class="btn-top">Approve Metamask</a>
+                            <a href="#" class="nav_button">Go to <img src="images/hex-business-white.png" alt="LOGO"></a>
                         </div>
                     </div>
                     <div class="footer-blk-two">
