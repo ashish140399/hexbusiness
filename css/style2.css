@@ -1820,8 +1820,7 @@ footer{
 }
 
 .overview_section tbody tr img{
-   width: 22px;
-  height: 22px;
+  height: 18px;
   margin-right: 5px;
       display: inline-block;
       margin-bottom: 3px !important;
