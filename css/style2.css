@@ -473,8 +473,8 @@ p{
   font-size: 25px;
   font-weight: 600;
   color: #171f68;
-  margin: 0;
-  font-family: 'Montserrat'
+  margin: 25px 0 0 0 ;
+  font-family: 'Montserrat';
 }
 
 .hex-table .table{
@@ -1158,6 +1158,8 @@ p{
   box-shadow: none;
   background-repeat: no-repeat;
   background-position: 25px center; 
+  background-size: 24px;
+  background-color: #fff !important
 }
 .hex-form .form-control:focus,
 .hex-form .form-control:hover{
@@ -1168,8 +1170,9 @@ p{
 }
 .hex-form span{
   position: absolute;
-  bottom: 2px;
-  margin-top: -7px;
+      top: 50%;
+    transform: translateY(-50%);
+
   right: 20px;
   font-size: 20px;
   font-weight: 500;
@@ -1185,7 +1188,7 @@ p{
     font-size: 20px;
     font-weight: 500;
    
-    padding: 10px !important ;
+    padding: 12 px !important ;
     border-radius: 10px;
     background:#fff;
 }
@@ -1783,7 +1786,7 @@ footer{
   position: relative;
   align-items: center;
   justify-content: space-between;
-  margin: 30px 0 20px 0;
+  margin: 35px 0 30px 0;
 }
 .hex-available div{
    display: flex;
@@ -1807,10 +1810,7 @@ footer{
 
 }
 
-.hex-form-dividend .hex-receive span{
-  bottom: 8px;
 
-}
 
 .overview_section{
    margin: 2em 10%;
@@ -1855,7 +1855,7 @@ footer{
 .overview_section .hex-btn .btn-main{
   font-size: 14px;
     font-family: 'Montserrat';
-  padding: 5px 18px !important;
+  padding: 6px 18px !important;
   border-radius: 8px;
   background:#fff ;
   border: 0;
@@ -1930,7 +1930,7 @@ footer{
   background-repeat: no-repeat;
       background-image: url(../images/hex-business-white.png);
      background-position: center;
-    background-size: 100% 100%;
+    background-size: 100% ;
 }
 .nav_button:hover{
   color: #fff !important; 
@@ -1963,7 +1963,7 @@ background-image: linear-gradient(to left, #fff , #fff) !important;
 .hex-btn-outer{
   background-image: linear-gradient(to left, #9045F4 , #00B8FA);
   padding: 1px;
-  border-radius: 10px;
+  border-radius: 12px;
 }
 .hexsection .row{
   display: flex;
@@ -1981,6 +1981,9 @@ background-image: linear-gradient(to left, #fff , #fff) !important;
 .hex-form .hex-receive{
   margin-bottom: 10px !important;
   margin-top: 5px !important;
+}
+.hex-receive div{
+  position: relative;
 }
 .welcome_section_main {
   font-family: 'Montserrat';
@@ -2027,4 +2030,43 @@ background-image: linear-gradient(to left, #fff , #fff) !important;
 .nav-hexbtn  .hex-btn .btn-main {
   background: transparent;
   color: #fff;
+}
+
+.hex-form-dividend input{
+  cursor: auto;
+}
+
+
+.overview_section .hex-table .table tbody tr:nth-child(1) td {
+    padding-top: 24px;
+}
+
+
+.footer-nav-hexbtn{
+      width: fit-content;
+}
+
+.join-btn .btn-main:hover{
+  background-color: transparent;
+  border-color: #fff;
+  color: #fff;
+  box-shadow:0 2.8px 2.2px rgba(255, 255, 255, 0.034),
+  0 6.7px 5.3px rgba(255, 255, 255, 0.048),
+  0 12.5px 10px rgba(255, 255, 255, 0.06),
+  0 22.3px 17.9px rgba(255, 255, 255, 0.072),
+  0 41.8px 33.4px rgba(255, 255, 255, 0.086),
+  0 100px 80px rgba(255, 255, 255, 0.12)
+;
+}
+
+
+
+
+
+
+
+
+
+.hex-btn-capitalise{
+  max-width: 10em
 }
