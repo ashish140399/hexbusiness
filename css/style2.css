@@ -2066,4 +2066,6 @@ background-image: linear-gradient(to left, #fff , #fff) !important;
 
 
 
-.hex-select select.form-control option{ background-image:url(../images/cmp-icons/01.png) !important;   }
+.hex-btn-capitalise{
+  max-width: 10em
+}
