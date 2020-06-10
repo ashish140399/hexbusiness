@@ -1881,17 +1881,19 @@ margin: 0 5px
 
 .nav_button{
   border-radius: 8px !important;
-  border: 1px solid #fff !important;
+  border: 2px solid #fff !important;
   color: #fff;
-  padding: 8px 15px !important;
+  padding: 10px 18px !important;
   margin-top: 3px;
+  font-size: 15px !important;
 }
 .nav_button:hover{
   color: #fff !important; 
+   background-image: linear-gradient(to left, #9045F4 , #00B8FA);
 }
 .nav_button img{
   display: inline-block;
-  width: 6em;
+  width: 7em;
   margin-left: 0px
 }
 
@@ -1935,4 +1937,9 @@ margin: 0 5px
 }
 .join-wrapper .btn-main{
   color: #00B8FA !important;
+}
+
+#bs-example-navbar-collapse-1{
+  display: flex !important;
+  justify-content: space-between;
 }
