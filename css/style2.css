@@ -2071,6 +2071,8 @@ background-image: linear-gradient(to left, #fff , #fff) !important;
 
 .navmobilehide{
   display: block;
+  padding-right: 5% !important;
+  padding-left:  5% !important;
 }
 
 .navmobileshow{
