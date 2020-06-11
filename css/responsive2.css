@@ -4473,6 +4473,7 @@ footer{
 	}
 	.welcome_section_main{
 		display: block;
+		text-align: center;
 	}
 	.mobileshow{
 		display: block;
@@ -5398,6 +5399,7 @@ footer{
 	}
 	.welcome_section_main{
 		display: block;
+		text-align: center;
 	}
 	.mobileshow{
 		display: block;
