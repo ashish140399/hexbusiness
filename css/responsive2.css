@@ -3598,6 +3598,28 @@ footer{
 
 
 @media(min-width:768px) and (max-width:991px){
+
+
+
+
+
+
+
+	.welcome_section_main{
+		display: block;
+	}
+	.welcome_usrname{
+		margin-bottom: 8px
+	}
+
+
+
+
+
+
+
+
+
 	.row{
 		display: flex;
 	}
@@ -3978,6 +4000,7 @@ footer{
 	.navbar-default .navbar-nav{
 		width: 100%;
 		padding: 0 15px;
+		background-image: linear-gradient(to left, #9045F4 , #00B8FA);
 	}
 	.navbar-default .navbar-nav>li{
 		margin-right: 24px;
@@ -4851,6 +4874,7 @@ footer{
 		border-bottom: 1px solid #ddd;
 	}
 	.navbar-default .navbar-nav{
+		background-image: linear-gradient(to left, #9045F4 , #00B8FA);
 		padding: 15px 15px 30px;
 		float: none;
 	}
@@ -5779,6 +5803,7 @@ footer{
 		border-bottom: 1px solid #ddd;
 	}
 	.navbar-default .navbar-nav{
+		background-image: linear-gradient(to left, #9045F4 , #00B8FA);
 		padding: 15px 15px 30px;
 		float: none;
 	}

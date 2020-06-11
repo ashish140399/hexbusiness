@@ -330,10 +330,10 @@ p{
 }
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
     background: transparent;
-    border-color: #000;
+    border-color: #fff;
 }
 .navbar-default .navbar-toggle:hover .icon-bar,.navbar-default .navbar-toggle:focus .icon-bar{
-    background: #000;
+    background: #fff;
 }
 /* End Navigation CSS */
 
@@ -2076,3 +2076,9 @@ background-image: linear-gradient(to left, #fff , #fff) !important;
 .mobileshow{
     display: none;
   }
+
+
+
+.navmobilehide .navbar-default .navbar-nav{
+  background-image: linear-gradient(to left, #9045F4 , #00B8FA) !important;
+}
