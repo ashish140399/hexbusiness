@@ -1778,3 +1778,13 @@ footer{
 .about-normal{
   margin-top: 5%;
 }
+
+
+
+
+
+.hexmoneyimage{
+	width: 100% !important;
+	max-width: none !important;
+	margin: 2em 0em 2em 1em !important;
+}
