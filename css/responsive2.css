@@ -4436,10 +4436,10 @@ footer{
 
 
 	.navmobilehide{
-		display: block;
+		display: none;
 	}
 	.navmobileshow{
-		display: none;
+		display: block;
 	}
 	.welcome_section{
 		margin: 12em 10% 1% 10%
@@ -4482,10 +4482,10 @@ footer{
 		display: none;
 	}
 	.navmobilehide{
-		display: block;
+		display: none;
 	}
 	.navmobileshow{
-		display: none;
+		display: block;
 	}
 
 
@@ -5380,10 +5380,10 @@ footer{
 
 @media(max-width:447px){
 	.navmobilehide{
-		display: block;
+		display: none;
 	}
 	.navmobileshow{
-		display: none;
+		display: block;
 	}
 	.welcome_section{
 		margin: 7em 10% 1% 10%

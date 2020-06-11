@@ -13,7 +13,7 @@
     <title>hey.money - Hexbusiness</title>
 </head>
 <body class="hexsub">
-    <nav class="navbar navbar-default wow fadeInDown navmobileshow" data-wow-duration="1s" data-wow-delay="0.20s">
+    <nav class="navbar navbar-default wow fadeInDown navmobilehide" data-wow-duration="1s" data-wow-delay="0.20s">
         <div>
             
 
@@ -69,7 +69,7 @@
             </div>
         </div>
     </nav>
-    <nav class="navbar navbar-default wow fadeInDown navmobilehide" data-wow-duration="1s" data-wow-delay="0.20s">
+    <nav class="navbar navbar-default wow fadeInDown navmobileshow " data-wow-duration="1s" data-wow-delay="0.20s">
         <div>
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -280,7 +280,7 @@
                         </div>
                         <div class="hex-available">
                             <label>Expire in</label>
-                             <b>10:00</b>
+                            <span><b id="mins">10:</b><b id="seconds">00</b></span>
                         
                         </div>
                         <div class="hex-btn">
@@ -823,6 +823,35 @@
                 },
             }
         })
+    </script>
+    <script type="text/javascript">
+        var mins =2; /* Add the timer that you want to add herre*/
+        var seconds =0;
+        startTimer();
+        function startTimer(){
+          timex = setTimeout(function(){
+              seconds--;
+            if(seconds <=0){
+                seconds=59;
+                mins--;                             
+            if(mins<10){                     
+              $("#mins").text('0'+mins+':');}       
+               else $("#mins").text(mins+':');
+                           }    
+            if(seconds <10) {
+              $("#seconds").text('0'+seconds);} else {
+              $("#seconds").text(seconds);
+              }
+             
+            
+            if(mins>=0 && seconds >0)
+            {startTimer();}
+            else{
+                $("#seconds").text('00');
+                 $("#mins").text('00:');
+            }
+          },1000);
+        }
     </script>
 </body>
 </html>

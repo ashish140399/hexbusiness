@@ -2089,3 +2089,8 @@ background-image: linear-gradient(to left, #fff , #fff) !important;
 .navmobilehide .navbar-default .navbar-nav{
   background-image: linear-gradient(to left, #9045F4 , #00B8FA) !important;
 }
+
+#bs-example-navbar-collapse-2{
+    display: flex !important;
+    justify-content: space-between;
+}
