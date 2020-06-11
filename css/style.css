@@ -907,7 +907,7 @@ p{
     transition: all 0.4s ease-in-out;
     border-radius: 10px;
     width: 100%;
-    border-left: 6px solid #1d66ff;
+    /**border-left: 6px solid #1d66ff;**/
     box-shadow: 0 0 20px rgba(0,0,0,0.04);
     margin-top: 14px;
 }
@@ -977,7 +977,7 @@ p{
 .hex-loan li:hover{
   padding: 30px 27px;
   padding-right: 40px;
-  border-left: 6px solid #1d66ff;
+  /*border-left: 6px solid #1d66ff;*/
   box-shadow: 0 0 20px rgba(0,0,0,0.04);
 }
 .hex-loan li:focus p,
