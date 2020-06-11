@@ -322,11 +322,11 @@ p{
 .navbar-toggle .icon-bar:nth-child(3){opacity: 0}
 .navbar-toggle .icon-bar:nth-child(4){transform:rotate(45deg)translateY(-4px)translateX(-3px);}
 .navbar-default .navbar-toggle{
-    border-color: #000;
+    border-color: #fff;
     transition: all 0.3s ease;
 }
 .navbar-default .navbar-toggle .icon-bar{
-    background: #000;
+    background: #fff;
 }
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
     background: transparent;
@@ -1998,7 +1998,6 @@ background-image: linear-gradient(to left, #fff , #fff) !important;
 }
 
 #bs-example-navbar-collapse-1{
-  display: flex !important;
   justify-content: space-between;
   margin: 0;
 }
@@ -2069,3 +2068,11 @@ background-image: linear-gradient(to left, #fff , #fff) !important;
 .hex-btn-capitalise{
   max-width: 10em
 }
+
+.navmobilehide{
+  display: none;
+}
+
+.mobileshow{
+    display: none;
+  }

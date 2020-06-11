@@ -3600,8 +3600,8 @@ footer{
 @media(min-width:768px) and (max-width:991px){
 	.row{
 		display: flex;
-		flex-direction: column-reverse;
 	}
+	.hex-table h5{margin: 0}
 
 
 
@@ -3647,8 +3647,12 @@ footer{
 	    padding: 0 0 10px;
 }
 .hex-table-title{
-	margin-bottom: 20px
+	margin-bottom: 20px;
+	    margin-top: 15px;
 
+}
+.hex-available label{
+	margin: 0 !important;
 }
 
 .hex-table .table tbody tr td{
@@ -4360,6 +4364,19 @@ footer{
 		margin-top: 0;
 	}
 	/*another end*/
+
+
+
+
+	.navmobilehide{
+		display: block;
+	}
+	.navmobileshow{
+		display: none;
+	}
+	.welcome_section{
+		margin: 12em 10% 1% 10%
+	}
 }
 
 
@@ -4376,36 +4393,52 @@ footer{
 
 
 @media(min-width:448px) and (max-width:767px){
-	.section_heading {
-	    margin: 1em 0 1em 0 !important;
+	.welcome_section{
+		margin: 7em 10% 1% 10%
 	}
-
-
-
-	.row{
-		display: flex;
-		flex-direction: column-reverse;
+	.welcome_walletbalance .welcome_col_span{
+		display: block;
+		margin-right: 0;
+		margin: 8px 0;
+	}
+	.welcome_usrname{
+		margin-bottom: 10px;
+	}
+	.welcome_section_main{
+		display: block;
+	}
+	.mobileshow{
+		display: block;
+	}
+	.mobilehide{
+		display: none;
+	}
+	.navmobilehide{
+		display: block;
+	}
+	.navmobileshow{
+		display: none;
 	}
 
 
 
 
 	.banner-details .btn-main {
-    margin: 0 auto 14px;
-}
-.banner-details p{
-	margin-bottom: 20px;
-}
+	    margin: 0 auto 14px;
+	}
+	.banner-details p{
+		margin-bottom: 20px;
+	}
 
 
 
 
 
 
-.navbar-brand>img {
-    width: 10em;
-    margin-top: 6px;
-}
+	.navbar-brand>img {
+	    width: 10em;
+	    margin-top: 6px;
+	}
 
 
 
@@ -4413,31 +4446,31 @@ footer{
 
 
 
-.hex-money li img{
-	width: 38px!important;
-    height: 38px!important;
-        margin-right: 15px;
-}
+	.hex-money li img{
+		width: 38px!important;
+	    height: 38px!important;
+	        margin-right: 15px;
+	}
 
 
 
-	/******** section 1 end ********/
+		/******** section 1 end ********/
 
 
 
 
-/***** hex business******/
-.hex-table .table thead tr th{
-	    padding: 0 0 10px;
-}
-.hex-table-title{
-	margin-bottom: 20px
+	/***** hex business******/
+	.hex-table .table thead tr th{
+		    padding: 0 0 10px;
+	}
+	.hex-table-title{
+		margin-bottom: 20px
 
-}
+	}
 
-.hex-table .table tbody tr td{
-	padding: 8px 0 0 0;
-}
+	.hex-table .table tbody tr td{
+		padding: 8px 0 0 0;
+	}
 
 
 
@@ -4447,239 +4480,245 @@ footer{
 
 
 
- /****** hex business end *****/
+	 /****** hex business end *****/
 
 
 
 
 
 
-/***** hex mobile******/
-.about-sld:before{
-	height: 400px;
-	top: 50px;	
-}
-.about-sld .owl-dots{
-    top: 15px !important;
-    position: absolute;
-    left: 230px;
-    transform: scale(0.8);
-}
-.hex-loan li img{
-	width: 32px!important;
-    height: 32px!important;
-}
-.about-details .app-list img {
-    height: 2.5em !important;
-}
-.app-list{
-	margin: 20px 0
-}
-.hex-loan li p span{
-	margin-top: 0;
-}
- /****** hex mobile end *****/
+	/***** hex mobile******/
+	.about-sld:before{
+		height: 400px;
+		top: 50px;	
+	}
+	.about-sld .owl-dots{
+	    top: 15px !important;
+	    position: absolute;
+	    left: 230px;
+	    transform: scale(0.8);
+	}
+	.hex-loan li img{
+		width: 32px!important;
+	    height: 32px!important;
+	}
+	.about-details .app-list img {
+	    height: 2.5em !important;
+	}
+	.app-list{
+		margin: 20px 0
+	}
+	.hex-loan li p span{
+		margin-top: 0;
+	}
+	 /****** hex mobile end *****/
 
 
 
 
- /***** hex credit******/
- .about-normal .about-img:before{
- 	height: 500px
- }
- .about-normal .about-img{
- 	min-height: 650px
- }
- .about-normal .about-img img{
- 	max-width: 40%;
- 	transform: translateX(0%);
- }
- .about-normal .about-img{
- 	min-height: 23em;
- }
- .about-details p{
- 	margin-bottom: 0px
- }
- /****** hex credit end *****/
-
-
-
-
-
-
-
-
-/***** hex money ******/
-.about-transform .owl-item {
-    margin-bottom: 0px;
-}
-.about-transform .about-details {
-    margin-top: 80px;
-}
-.hex-btn .btn-main{
-	padding: 10px;
-}
-.hex-form .form-control{
-	height: 44px
-}
-.hexmoneyhsexspan{
-	bottom: 10px;
-}
-.about-transform .about-details .btn-main{
-	margin-top: 20px;
-	padding: 10px 15px;
-}
-.hextabs-table .table tr td {
-    padding: 10px 0 0;
-}
-.hextabs-table .table tr th{
-	padding: 0 0 10px
-}
-.hextabs-block h4 {
-    margin: 0 0 15px;
-}
-.hextabs-wrapper{
-	margin: 0px auto 0;
-}
-.about-transform .about-sld .owl-dots{
-	top: 15px !important
-}
-.hextabs-block{
-	padding: 20px 25px;
-}
-
-.hex-form .hex-select, .hex-form .hex-receive, .hex-form .hex-send{
-	margin-bottom: 20px
-}
-
-.hex-form label{
-	margin: 0 0 15px;
-}
-
-.about-transform .owl-controls .owl-nav .owl-next{
-	width: 36px;
-    height: 36px;
-}
-
- /****** hex money end *****/
-
-
-
-/***** hex assisstant ******/
-.btn-msg{
-	padding: 10px;
-	font-size: 18px;
-	margin: 10px 0 0;
-}
-.hex-money li{
-	padding: 5px 15px !important 
-}
-.about-msg .about-details{
-	padding-left: 50px;
-}
-.about-chatwrap h4{
-	margin: 0 0 20px
-}
-.about-chatblk .chat-left{
-	padding: 8px 14px;
-}
-.about-chatblk .chat-left, .about-chatblk .chat-right{
-	margin-bottom: 10px
-}
-.about-chatblk .chat-left p{
-	line-height: 18px;
-	font-size: 16px;
-}
-.about-chatblk .chat-right{
-	padding: 6px 14px;
-}
- /****** hex assisstant end *****/
-
-
-
- /***** hex project  ******/
- .about-project .about-img{
- 	min-height: 50vh
- }
- .hex-project-list li {
-    margin-bottom: 20px;
-}
- .about-project .about-img img{
- 	width: 4em !important;
- }
- .hex-project-list li span{
- 	width: 8em;
-    margin: auto;
-    height: 7em;
- }
-.about-project{
-	margin-top: 5em;
-}
-.about-project .about-details p{
-	margin-bottom: 18px
-}
-.about-project .btn-main{
-	padding: 10px 20px;
-}
-.about-details{
-	margin-top: 30px;
-}
-.hex-project-list{
-	margin-top: 20px
-}
-.about-msg .about-sld:before{
-	height: 500px
- /****** hex project  end *****/
-}
-
-
-
-
-
-/***** video container ****/
-.video-container{
-	margin-top: 20px;
-	padding-top: 50px;
-}
-.video-details p{
-	margin-bottom: 10px
-}
-.video-details{
-	margin-bottom: 25px
-}
-
-/****** video container end *****/
-
-
-/*** footer****/
-footer{
-    padding-top: 0px;
-}
-
-.footer-list h4{
-	margin: 0 0 10px
-}
-.footer-list li{
-	margin-bottom: 10px;
-}
-.join-btn .btn-main {
-    padding: 10px 10px;
-}
-
-.btn-top, .navbar-default .navbar-nav>li>.btn-main{
-	padding: 10px 15px;
-}
-/***** footer end *****/
-
-
-
-
-
-
-
-
-
-
+	 /***** hex credit******/
+	 .about-normal .about-img:before{
+	 	height: 500px
+	 }
+	 .about-normal .about-img{
+	 	min-height: 650px
+	 }
+	 .about-normal .about-img img{
+	 	max-width: 40%;
+	 	transform: translateX(0%);
+	 }
+	 .about-normal .about-img{
+	 	min-height: 23em;
+	 }
+	 .about-details p{
+	 	margin-bottom: 0px
+	 }
+	 /****** hex credit end *****/
+
+
+
+
+
+
+
+
+	/***** hex money ******/
+	.about-transform .owl-item {
+	    margin-bottom: 0px;
+	}
+	.about-transform .about-details {
+	    margin-top: 80px;
+	}
+	.hex-btn .btn-main{
+		padding: 10px;
+	}
+	.hex-form .form-control{
+		height: 44px
+	}
+	.hexmoneyhsexspan{
+		bottom: 10px;
+	}
+	.about-transform .about-details .btn-main{
+		margin-top: 20px;
+		padding: 10px 15px;
+	}
+	.hextabs-table .table tr td {
+	    padding: 10px 0 0;
+	}
+	.hextabs-table .table tr th{
+		padding: 0 0 10px
+	}
+	.hextabs-block h4 {
+	    margin: 0 0 15px;
+	}
+	.hextabs-wrapper{
+		margin: 0px auto 0;
+	}
+	.about-transform .about-sld .owl-dots{
+		top: 15px !important
+	}
+	.hextabs-block{
+		padding: 20px 25px;
+	}
+
+	.hex-form .hex-select, .hex-form .hex-receive, .hex-form .hex-send{
+		margin-bottom: 20px
+	}
+
+	.hex-form label{
+		margin: 0 0 15px;
+	}
+
+	.about-transform .owl-controls .owl-nav .owl-next{
+		width: 36px;
+	    height: 36px;
+	}
+
+	 /****** hex money end *****/
+
+
+
+	/***** hex assisstant ******/
+	.btn-msg{
+		padding: 10px;
+		font-size: 18px;
+		margin: 10px 0 0;
+	}
+	.hex-money li{
+		padding: 5px 15px !important 
+	}
+	.about-msg .about-details{
+		padding-left: 50px;
+	}
+	.about-chatwrap h4{
+		margin: 0 0 20px
+	}
+	.about-chatblk .chat-left{
+		padding: 8px 14px;
+	}
+	.about-chatblk .chat-left, .about-chatblk .chat-right{
+		margin-bottom: 10px
+	}
+	.about-chatblk .chat-left p{
+		line-height: 18px;
+		font-size: 16px;
+	}
+	.about-chatblk .chat-right{
+		padding: 6px 14px;
+	}
+	 /****** hex assisstant end *****/
+
+
+
+	 /***** hex project  ******/
+	 .about-project .about-img{
+	 	min-height: 50vh
+	 }
+	 .hex-project-list li {
+	    margin-bottom: 20px;
+	}
+	 .about-project .about-img img{
+	 	width: 4em !important;
+	 }
+	 .hex-project-list li span{
+	 	width: 8em;
+	    margin: auto;
+	    height: 7em;
+	 }
+	.about-project{
+		margin-top: 5em;
+	}
+	.about-project .about-details p{
+		margin-bottom: 18px
+	}
+	.about-project .btn-main{
+		padding: 10px 20px;
+	}
+	.about-details{
+		margin-top: 30px;
+	}
+	.hex-project-list{
+		margin-top: 20px
+	}
+	.about-msg .about-sld:before{
+		height: 500px
+	 /****** hex project  end *****/
+	}
+
+
+
+
+
+	/***** video container ****/
+	.video-container{
+		margin-top: 20px;
+		padding-top: 50px;
+	}
+	.video-details p{
+		margin-bottom: 10px
+	}
+	.video-details{
+		margin-bottom: 25px
+	}
+
+	/****** video container end *****/
+
+
+	/*** footer****/
+	footer{
+	    padding-top: 0px;
+	}
+
+	.footer-list h4{
+		margin: 0 0 10px
+	}
+	.footer-list li{
+		margin-bottom: 10px;
+	}
+	.join-btn .btn-main {
+	    padding: 10px 10px;
+	}
+
+	.btn-top, .navbar-default .navbar-nav>li>.btn-main{
+		padding: 10px 15px;
+	}
+	/***** footer end *****/
+
+
+
+
+
+	.overview_section .hex-table .table tbody tr td{
+		padding-right: 15px;
+	}
+
+
+	.hex-table h5{
+		margin: 0;
+	}
+	.hex-table-title{
+		margin-top: 15px
+	}
 
 
 
@@ -4796,7 +4835,7 @@ footer{
 		width: 100%;
 	}
 	.navbar-header{
-		padding: 15px 0;
+		padding: 15px;
 	}
 	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
 		margin-left: 15px;
@@ -4999,7 +5038,7 @@ footer{
 		margin-top: 20px;
 	}
 	.join-btn .btn-main{
-		font-size: 46px;
+		font-size: 14px;
 		padding: 10px 25px;
 		width: auto;
 	}
@@ -5020,6 +5059,9 @@ footer{
 		word-break: break-all;
 		width: 100%;
 		margin-bottom: 30px;
+	}
+	.footer-blk-two, .footer-blk-three, .footer-blk-four, .footer-blk-five{
+		width: 50%;
 	}
 
 	.footer-blk-five{
@@ -5149,7 +5191,8 @@ footer{
 		width: 415px;
 	}
 	.hextabs-block{
-		width: 380px;
+		width: 100%;
+		margin: 15px 0;
 	}
 
 	.about-chatblk .chat-right p,
@@ -5217,6 +5260,13 @@ footer{
 		margin-top: 0;
 	}
 	/*another end*/
+
+
+
+
+	.hexsection .row {
+	    display: block;
+	}
 }
 
 
@@ -5249,7 +5299,74 @@ footer{
 
 
 
+
+
+
+
+
+
+
+
+
+
 @media(max-width:447px){
+	.navmobilehide{
+		display: block;
+	}
+	.navmobileshow{
+		display: none;
+	}
+	.welcome_section{
+		margin: 7em 10% 1% 10%
+	}
+
+.welcome_walletbalance .welcome_col_span{
+		display: block;
+		margin-right: 0;
+		margin: 8px 0;
+	}
+	.welcome_usrname{
+		margin-bottom: 10px;
+	}
+	.welcome_section_main{
+		display: block;
+	}
+	.mobileshow{
+		display: block;
+	}
+	.mobilehide{
+		display: none;
+	}
+.overview_section .hex-btn .btn-main{
+	    font-size: 10px;
+	    padding: 4px 16px !important;
+}
+.hex-table h5{
+	margin-top: 0;
+}
+.hex-table-title{
+	margin-top: 15px;
+}
+
+ .footer-blk-two, .footer-blk-three, .footer-blk-four, .footer-blk-five{
+ 	width: 50% !important;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .hex-table .table tbody tr td .up{
 	transform: scale(0.8);
 }
@@ -5321,7 +5438,7 @@ footer{
 }
 
 .hex-table .table tbody tr td{
-	padding: 8px 8px 0 0;
+	padding: 8px 12px 0 0;
 }
 
 
@@ -5641,7 +5758,7 @@ footer{
 		width: 100%;
 	}
 	.navbar-header{
-		padding: 15px 0;
+		padding: 15px ;
 	}
 	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
 		margin-left: 15px;
@@ -6051,7 +6168,8 @@ footer{
 	}
 	.hextabs-block{
 		padding: 20px 24px;
-		width: 95%;
+		width: 100%;
+		margin: 10px 0;
 	}
 
 	.about-chatblk .chat-right p,
