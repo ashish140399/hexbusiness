@@ -567,8 +567,8 @@
             </div>
             <div class="about-msg wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">
                 <div class="about-sld">
-                    <div class="owlCarousel" id="chat-slider">
-                        <div class="items">
+                    <div>
+                        <div class="items assistant_btn1_box">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="about-img wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
@@ -648,12 +648,12 @@
                                             </li>
                                         </ul>
 
-                                        <a href="#" class="btn-msg">Show all commands</a>
+                                        <a href="#" class="btn-msg" id="assistant_btn1">Show all commands</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="items">
+                        <div class="items assistant_btn2_box">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="about-img wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
@@ -785,7 +785,7 @@
                                                     </li>
                                                 </ul>
                                             </div>
-                                            <a href="#" class="btn-msg">Show all commands</a>
+                                            <a href="#" class="btn-msg" id="assistant_btn2">Show all commands</a>
                                         </div>
                                     </div>
                                 </div>
@@ -981,7 +981,9 @@
         </div>
     </footer>
     <!-- Footer end -->
-
+    <script type="text/javascript">
+       
+    </script>
     <script type="text/javascript" src="js/jquery.min.js"></script> 
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/owl.carousel.min.js"></script>
@@ -1093,6 +1095,15 @@
                 },
             }
         })
+         $(".assistant_btn2_box").hide();
+        $("#assistant_btn1").click(function(){
+            $('.assistant_btn1_box').hide();
+            $('.assistant_btn2_box').show();
+        });
+        $("#assistant_btn2").click(function(){
+            $('.assistant_btn2_box').hide();
+            $('.assistant_btn1_box').show();
+        });
     </script>
 </body>
 </html>
