@@ -5603,8 +5603,9 @@ footer{
 	font-size: 18px
 }
 .footer-social li:last-child a{
-	font-size: 18px;
+	font-size: 22px;
 }
+
 /***** footer end *****/
 
 
@@ -5872,7 +5873,6 @@ footer{
 	.hex-money li, .hex-deposit{
 		margin-bottom: 0px;
 		padding: 20px;
-		display: table;
 	}
 	.hex-loan li img,
 	.hex-deposit li img,
@@ -5882,7 +5882,7 @@ footer{
 	}
 
 	.about-img>img{
-		width: 35%!important;
+		width: 40% !important;
 	}
 	.android-note{
 		font-size: 14px;
@@ -5962,7 +5962,10 @@ footer{
 		width: 100%;
 		margin-bottom: 20px;
 	}
-
+	.footer-blk-two, .footer-blk-three, .footer-blk-four, .footer-blk-five{
+		width: 50%;
+		padding-right: 10px;
+	}
 	.footer-blk-five{
 		margin-bottom: 0;
 	}
@@ -6056,7 +6059,7 @@ footer{
 	}
 
 	.hex-loan li{
-		padding: 10px 0 0 14px;
+		padding: 10px 0 10px 14px;
 	}
 	.hex-money li, .hex-deposit,
 	.hex-loan li:hover, .hex-loan li:focus{

@@ -1798,3 +1798,16 @@ footer{
 .mobileshow{
 		display: none;
 	}
+
+
+
+
+.mobileshow-footer{
+	display: flex;
+	align-items: center;
+}
+.mobileshow-footer .footer-social{
+	margin-bottom: 0;
+	width: auto;
+	margin-right: 20px;
+}
