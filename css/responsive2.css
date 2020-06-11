@@ -56,6 +56,25 @@
 
 
 @media(min-width:1800px) and (max-width:1999px){
+	.hex-available div{
+		padding-right: 75px;
+	}
+	.hex-available img{
+		margin-right: 10px
+	}
+
+	.hextabs-block .hex-form{
+		position: relative;
+    	height: 100%;
+   	    display: flex;
+    	flex-direction: column;
+    	justify-content: space-between;
+	}
+	.hex-available b{
+		font-size: 20px
+	}
+
+
 	.welcome_section{
 	   margin: 10% 14% 1% 14%;
 	}
@@ -290,6 +309,25 @@ footer{
 
 
 @media(min-width:1551px) and (max-width:1799px){
+	.hex-available b{
+		font-size: 20px
+	}
+	.hex-available div{
+		padding-right: 75px;
+	}
+	.hex-available img{
+		margin-right: 10px
+	}
+
+	.hextabs-block .hex-form{
+		position: relative;
+    	height: 100%;
+   	    display: flex;
+    	flex-direction: column;
+    	justify-content: space-between;
+	}
+
+
 
 
 
