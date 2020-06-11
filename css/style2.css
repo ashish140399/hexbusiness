@@ -2269,3 +2269,14 @@ background-image: linear-gradient(to left, #fff , #fff) !important;
         -ms-flex-pack: justify;
             justify-content: space-between;
 }
+
+
+
+
+.table-responsive-outer{
+  display: flex;
+}
+
+.table-responsive-outer .table-responsive{
+  width: 50%;
+}

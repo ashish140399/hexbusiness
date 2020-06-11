@@ -3716,6 +3716,22 @@ footer{
 
 
 @media(min-width:448px) and (max-width:767px){
+	.overview_section .hex-table .table-responsive2 tbody tr:nth-child(1) td {
+	    padding-top: 8px !important;
+	}
+	.table-responsive-outer{
+	  display: block;
+	}
+	.table-responsive-outer .table-responsive{
+		margin-bottom: 0 !important
+	}
+	.table-responsive-outer .table{
+		margin-bottom: 0 !important
+	}
+
+	.table-responsive-outer .table-responsive{
+	  width: 100%;
+	}
 	.welcome_section{
 		margin: 7em 10% 1% 10%
 	}
@@ -4501,6 +4517,12 @@ footer{
 	.hexsection .row {
 	    display: block;
 	}
+	.overview_rate_sec_tbody tr td:nth-child(even) p{
+		margin-right: 0 !important;
+	}
+	.overview_section .hex-table .table-responsive2 tbody tr:nth-child(1) td {
+	    padding-top: 8px !important;
+	}
 }
 
 
@@ -4544,6 +4566,26 @@ footer{
 
 
 @media(max-width:447px){
+
+	.overview_rate_sec_tbody tr td:nth-child(even) p{
+		margin-right: 0 !important;
+	}
+	.overview_section .hex-table .table-responsive2 tbody tr:nth-child(1) td {
+	    padding-top: 8px !important;
+	}
+	.table-responsive-outer{
+	  display: block;
+	}
+	.table-responsive-outer .table-responsive{
+		margin-bottom: 0 !important
+	}
+	.table-responsive-outer .table{
+		margin-bottom: 0 !important
+	}
+
+	.table-responsive-outer .table-responsive{
+	  width: 100%;
+	}
 	.navmobilehide{
 		display: none;
 	}

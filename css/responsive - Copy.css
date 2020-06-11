@@ -2003,6 +2003,7 @@
 	/*another end*/
 }
 @media(min-width:448px) and (max-width:767px){
+	
 	.about-normal .about-img{
 		margin-top: 0px;
 	    min-height: auto;
