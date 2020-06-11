@@ -6149,6 +6149,9 @@ footer{
 		padding: 30px;
 		margin: 0 auto;
 	}
+	.mobileshow .about-chatwrap{
+		margin: 20px auto;
+	}
 	.about-chatwrap h4{
 		font-size: 16px;
 	}
