@@ -691,7 +691,13 @@ footer{
 
 @media(min-width:1351px) and (max-width:1550px){
 
-
+	.hextabs-block .hex-form{
+		position: relative;
+    	height: 100%;
+   	    display: flex;
+    	flex-direction: column;
+    	justify-content: space-between;
+	}
 
 
 	/**** global****/
