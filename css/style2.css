@@ -2070,7 +2070,12 @@ background-image: linear-gradient(to left, #fff , #fff) !important;
 }
 
 .navmobilehide{
+  display: block;
+}
+
+.navmobileshow{
   display: none;
+
 }
 
 .mobileshow{
