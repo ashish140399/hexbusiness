@@ -5404,8 +5404,14 @@ footer{
  .about-normal .about-img{
  	min-height: 23em;
  }
+  .about-normal .about-img.mobileshow{
+ 	display: flex;
+ }
  .about-details p{
  	margin-bottom: 0px
+ }
+ .about-normal .about-img:before{
+ 	top: 0 !important;
  }
  /****** hex credit end *****/
 
@@ -6050,7 +6056,7 @@ footer{
 	}
 
 	.hex-loan li{
-		padding: 10px 0 0 0;
+		padding: 10px 0 0 14px;
 	}
 	.hex-money li, .hex-deposit,
 	.hex-loan li:hover, .hex-loan li:focus{
