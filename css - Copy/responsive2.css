@@ -66,16 +66,9 @@
 	.hextabs-block .hex-form{
 		position: relative;
     	height: 100%;
-   	    display: -webkit-box;
-   	    display: -ms-flexbox;
    	    display: flex;
-    	-webkit-box-orient: vertical;
-    	-webkit-box-direction: normal;
-    	    -ms-flex-direction: column;
-    	        flex-direction: column;
-    	-webkit-box-pack: justify;
-    	    -ms-flex-pack: justify;
-    	        justify-content: space-between;
+    	flex-direction: column;
+    	justify-content: space-between;
 	}
 	.hex-available b{
 		font-size: 20px
@@ -329,16 +322,9 @@ footer{
 	.hextabs-block .hex-form{
 		position: relative;
     	height: 100%;
-   	    display: -webkit-box;
-   	    display: -ms-flexbox;
    	    display: flex;
-    	-webkit-box-orient: vertical;
-    	-webkit-box-direction: normal;
-    	    -ms-flex-direction: column;
-    	        flex-direction: column;
-    	-webkit-box-pack: justify;
-    	    -ms-flex-pack: justify;
-    	        justify-content: space-between;
+    	flex-direction: column;
+    	justify-content: space-between;
 	}
 
 
@@ -422,9 +408,7 @@ footer{
 	 }
 	 .about-normal .about-img img{
 	 	max-width: 50%;
-	 	-webkit-transform: translateX(30%);
-	 	    -ms-transform: translateX(30%);
-	 	        transform: translateX(30%);
+	 	transform: translateX(30%);
 	 }
 	 .about-normal .about-img{
 	 	min-height: 60vh;
@@ -656,16 +640,9 @@ footer{
 	.hextabs-block .hex-form{
 		position: relative;
     	height: 100%;
-   	    display: -webkit-box;
-   	    display: -ms-flexbox;
    	    display: flex;
-    	-webkit-box-orient: vertical;
-    	-webkit-box-direction: normal;
-    	    -ms-flex-direction: column;
-    	        flex-direction: column;
-    	-webkit-box-pack: justify;
-    	    -ms-flex-pack: justify;
-    	        justify-content: space-between;
+    	flex-direction: column;
+    	justify-content: space-between;
 	}
 
 
@@ -745,9 +722,7 @@ footer{
 	    top: 15px !important;
 	    position: absolute;
 	    left: 230px;
-	    -webkit-transform: scale(0.8);
-	        -ms-transform: scale(0.8);
-	            transform: scale(0.8);
+	    transform: scale(0.8);
 	}
 	.hex-loan li img{
 		width: 38px!important;
@@ -767,9 +742,7 @@ footer{
 	 }
 	 .about-normal .about-img img{
 	 	max-width: 40%;
-	 	-webkit-transform: translateX(50%);
-	 	    -ms-transform: translateX(50%);
-	 	        transform: translateX(50%);
+	 	transform: translateX(50%);
 	 }
 	 .about-normal .about-img{
 	 	min-height: 60vh;
@@ -1258,9 +1231,7 @@ footer{
 	    top: 15px !important;
 	    position: absolute;
 	    left: 230px;
-	    -webkit-transform: scale(0.8);
-	        -ms-transform: scale(0.8);
-	            transform: scale(0.8);
+	    transform: scale(0.8);
 	}
 	.hex-loan li img{
 		width: 38px!important;
@@ -1280,9 +1251,7 @@ footer{
 	 }
 	 .about-normal .about-img img{
 	 	max-width: 40%;
-	 	-webkit-transform: translateX(50%);
-	 	    -ms-transform: translateX(50%);
-	 	        transform: translateX(50%);
+	 	transform: translateX(50%);
 	 }
 	 .about-normal .about-img{
 	 	min-height: 60vh;
@@ -1778,9 +1747,7 @@ footer{
 	    top: 15px !important;
 	    position: absolute;
 	    left: 230px;
-	    -webkit-transform: scale(0.8);
-	        -ms-transform: scale(0.8);
-	            transform: scale(0.8);
+	    transform: scale(0.8);
 	}
 	.hex-loan li img{
 		width: 32px!important;
@@ -1809,9 +1776,7 @@ footer{
 	 }
 	 .about-normal .about-img img{
 	 	max-width: 40%;
-	 	-webkit-transform: translateX(0%);
-	 	    -ms-transform: translateX(0%);
-	 	        transform: translateX(0%);
+	 	transform: translateX(0%);
 	 }
 	 .about-normal .about-img{
 	 	min-height: 50vh;
@@ -2392,9 +2357,7 @@ footer{
 	    top: 15px !important;
 	    position: absolute;
 	    left: 230px;
-	    -webkit-transform: scale(0.8);
-	        -ms-transform: scale(0.8);
-	            transform: scale(0.8);
+	    transform: scale(0.8);
 	}
 	.hex-loan li img{
 		width: 32px!important;
@@ -2423,9 +2386,7 @@ footer{
 	 }
 	 .about-normal .about-img img{
 	 	max-width: 40%;
-	 	-webkit-transform: translateX(0%);
-	 	    -ms-transform: translateX(0%);
-	 	        transform: translateX(0%);
+	 	transform: translateX(0%);
 	 }
 	 .about-normal .about-img{
 	 	min-height: 50vh;
@@ -2964,8 +2925,6 @@ footer{
 
 
 	.row{
-		display: -webkit-box;
-		display: -ms-flexbox;
 		display: flex;
 	}
 	.hex-table h5{margin: 0}
@@ -3050,9 +3009,7 @@ footer{
 	    top: 15px !important;
 	    position: absolute;
 	    left: 230px;
-	    -webkit-transform: scale(0.8);
-	        -ms-transform: scale(0.8);
-	            transform: scale(0.8);
+	    transform: scale(0.8);
 	}
 	.hex-loan li img{
 		width: 32px!important;
@@ -3081,9 +3038,7 @@ footer{
 	 }
 	 .about-normal .about-img img{
 	 	max-width: 40%;
-	 	-webkit-transform: translateX(0%);
-	 	    -ms-transform: translateX(0%);
-	 	        transform: translateX(0%);
+	 	transform: translateX(0%);
 	 }
 	 .about-normal .about-img{
 	 	min-height: 23em;
@@ -3298,8 +3253,6 @@ footer{
 	.navbar-default .navbar-nav{
 		width: 100%;
 		padding: 0 15px;
-		background-image: -webkit-gradient(linear, right top, left top, from(#9045F4) , to(#00B8FA));
-		background-image: -o-linear-gradient(right, #9045F4 , #00B8FA);
 		background-image: linear-gradient(to left, #9045F4 , #00B8FA);
 	}
 	.navbar-default .navbar-nav>li{
@@ -3820,9 +3773,7 @@ footer{
 	    top: 15px !important;
 	    position: absolute;
 	    left: 230px;
-	    -webkit-transform: scale(0.8);
-	        -ms-transform: scale(0.8);
-	            transform: scale(0.8);
+	    transform: scale(0.8);
 	}
 	.hex-loan li img{
 		width: 32px!important;
@@ -3851,9 +3802,7 @@ footer{
 	 }
 	 .about-normal .about-img img{
 	 	max-width: 40%;
-	 	-webkit-transform: translateX(0%);
-	 	    -ms-transform: translateX(0%);
-	 	        transform: translateX(0%);
+	 	transform: translateX(0%);
 	 }
 	 .about-normal .about-img{
 	 	min-height: 23em;
@@ -4082,8 +4031,6 @@ footer{
 		border-bottom: 1px solid #ddd;
 	}
 	.navbar-default .navbar-nav{
-		background-image: -webkit-gradient(linear, right top, left top, from(#9045F4) , to(#00B8FA));
-		background-image: -o-linear-gradient(right, #9045F4 , #00B8FA);
 		background-image: linear-gradient(to left, #9045F4 , #00B8FA);
 		padding: 15px 15px 30px;
 		float: none;
@@ -4603,9 +4550,7 @@ footer{
 
 
 	.hex-table .table tbody tr td .up{
-		-webkit-transform: scale(0.8);
-		    -ms-transform: scale(0.8);
-		        transform: scale(0.8);
+		transform: scale(0.8);
 	}
 
 	.hex-table .table tbody tr td p img {
@@ -4622,13 +4567,8 @@ footer{
 
 
 		.row{
-			display: -webkit-box;
-			display: -ms-flexbox;
 			display: flex;
-			-webkit-box-orient: vertical;
-			-webkit-box-direction: reverse;
-			    -ms-flex-direction: column-reverse;
-			        flex-direction: column-reverse;
+			flex-direction: column-reverse;
 		}
 
 
@@ -4707,9 +4647,7 @@ footer{
 	    top: 25px !important;
 	    position: absolute;
 	    left: 230px;
-	    -webkit-transform: scale(0.8);
-	        -ms-transform: scale(0.8);
-	            transform: scale(0.8);
+	    transform: scale(0.8);
 	}
 	.hex-loan li img{
 		width: 28px!important;
@@ -4738,9 +4676,7 @@ footer{
 	 }
 	 .about-normal .about-img img{
 	 	max-width: 40%;
-	 	-webkit-transform: translateX(0%);
-	 	    -ms-transform: translateX(0%);
-	 	        transform: translateX(0%);
+	 	transform: translateX(0%);
 	 }
 	 .about-normal .about-img{
 	 	min-height: 23em;
@@ -4974,8 +4910,6 @@ footer{
 		border-bottom: 1px solid #ddd;
 	}
 	.navbar-default .navbar-nav{
-		background-image: -webkit-gradient(linear, right top, left top, from(#9045F4) , to(#00B8FA));
-		background-image: -o-linear-gradient(right, #9045F4 , #00B8FA);
 		background-image: linear-gradient(to left, #9045F4 , #00B8FA);
 		padding: 15px 15px 30px;
 		float: none;
@@ -5104,12 +5038,8 @@ footer{
 	.about-details .title-btn{
 		font-size: 16px;
 		margin-bottom: 15px;
-		    -webkit-transform-origin: left;
-		        -ms-transform-origin: left;
-		            transform-origin: left;
-		-webkit-transform: scale(0.8);
-		    -ms-transform: scale(0.8);
-		        transform: scale(0.8);
+		    transform-origin: left;
+		transform: scale(0.8);
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -5366,9 +5296,7 @@ footer{
 
 	.hextabs-wrapper{
 		width: 95%;
-		-webkit-transform: scale(0.8);
-		    -ms-transform: scale(0.8);
-		        transform: scale(0.8);
+		transform: scale(0.8);
 	}
 	.hextabs-block{
 		padding: 20px 24px;
