@@ -83,13 +83,14 @@
 	    margin: 2em 0 2em 0 !important;
 	}
 	.about-details .main-title {
-	    margin-bottom: 15px;
+		margin-bottom: 15px;
+		margin-top: 30px;
 	}
 	.app-list {
-	    margin: 20px 0;
+	    /**margin: 20px 0**/
 	}
 	.about-details .app-list img {
-	    height: 3.5em !important;
+	    /**height: 3.5em !important;**/
 	}
 	.about-img img{
 		max-width: 20em;	
@@ -1143,7 +1144,7 @@ footer{
 	.hex-table .table tbody tr td .down,
 	.hex-table .table tbody tr td .up,
 	.hex-table .table tbody tr td p{
-		font-size: 14px;
+		font-size: 13.5px;
 	}
 	.hex-table .table tbody tr td .down,
 	.hex-table .table tbody tr td .up{
