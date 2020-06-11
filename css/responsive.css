@@ -5247,6 +5247,31 @@ footer{
 
 
 @media(max-width:447px){
+
+
+	.mobileshow{
+		display: block;
+	}
+	.mobilehide{
+		display: none ;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .hex-table .table tbody tr td .up{
 	transform: scale(0.8);
 }
