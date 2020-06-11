@@ -5769,8 +5769,7 @@ footer{
 	.about-transform .about-sld .owl-controls .owl-dots,
 	.about-sld .owl-controls .owl-dots{
 		top: auto;
-    	left: 50%;
-    	margin-left: -21px;
+    	margin-right: auto;
 	}
 	.about-transform .about-sld .owl-controls .owl-dots{
 		margin-left: -35px;
@@ -5791,7 +5790,9 @@ footer{
 		font-size: 16px;
 		margin-bottom: 15px;
 		    transform-origin: left;
-    transform: scale(0.8);
+		transform: scale(0.8);
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.about-transform .about-details .btn-main:before,

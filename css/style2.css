@@ -446,6 +446,7 @@ p{
   width: 100%;
   display: table;
   margin-bottom: 40px;
+  margin-top: 25px;
 }
 .hex-table-title h4{
   float: left;

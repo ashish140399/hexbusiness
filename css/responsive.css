@@ -74,7 +74,7 @@
 
 
 	.hex-table-title {
-	    margin-bottom: 15px;
+	    margin-bottom: 20px;
 	}
 	.main-title{
 		font-size: 34px;
@@ -83,16 +83,18 @@
 	    margin: 2em 0 2em 0 !important;
 	}
 	.about-details .main-title {
-	    margin-bottom: 15px;
+		margin-bottom: 15px;
+		margin-top: 30px;
 	}
 	.app-list {
-	    margin: 20px 0;
+	    /**margin: 20px 0**/
 	}
 	.about-details .app-list img {
-	    height: 3.5em !important;
+	    /**height: 3.5em !important;**/
 	}
 	.about-img img{
-		max-width: 20em;	
+		max-width: 20em;
+		margin-top: 5em;	
 	}
 	.about-details .title-btn{
 		margin-bottom: 20px
@@ -138,7 +140,9 @@
  	min-height: 650px
  }
  .about-normal .about-img img{
- 	max-width: 50%;
+ 		/* max-width: 50%; */
+		 margin-left: auto;
+		 margin-right: auto;
  }
  .about-normal .about-img{
  	min-height: 60vh;
@@ -187,6 +191,8 @@
 .about-chatblk .chat-right{
 	padding: 15px 20px;
 }
+
+
  /****** hex assisstant end *****/
 
 
@@ -1141,7 +1147,7 @@ footer{
 	.hex-table .table tbody tr td .down,
 	.hex-table .table tbody tr td .up,
 	.hex-table .table tbody tr td p{
-		font-size: 14px;
+		font-size: 13.5px;
 	}
 	.hex-table .table tbody tr td .down,
 	.hex-table .table tbody tr td .up{
@@ -1292,6 +1298,7 @@ footer{
 
 	.hex-project-list{
 		width: 90%;
+		margin-top: 20px;
 	}
 	/*another end*/
 }
@@ -5345,7 +5352,7 @@ footer{
     height: 28px!important;
 }
 .about-details .app-list img {
-    height: 2em !important;
+    height: 3em !important;
 }
 .app-list{
 	margin: 20px 0
@@ -5403,6 +5410,8 @@ footer{
 .about-transform .about-details .btn-main{
 	margin-top: 20px;
 	padding: 8px 15px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .hextabs-table .table tr td {
     padding: 10px 0 0;
@@ -5468,6 +5477,13 @@ footer{
 .about-chatblk .chat-right{
 	padding: 6px 14px;
 }
+
+.about-chatbox{
+		width: 94%;
+		display: block;
+		margin-left: 15px;
+	}
+
  /****** hex assisstant end *****/
 
 
@@ -5495,6 +5511,8 @@ footer{
 }
 .about-project .btn-main{
 	padding: 10px 20px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .about-details{
 	margin-top: 30px;
@@ -5513,7 +5531,7 @@ footer{
 
 /***** video container ****/
 .video-container{
-	margin-top: 20px;
+	margin-top: 40px;
 	padding-top: 50px;
 }
 .video-details p{
@@ -5541,6 +5559,8 @@ footer{
 .join-btn .btn-main {
     padding: 10px 10px;
 }
+
+
 
 .btn-top, .navbar-default .navbar-nav>li>.btn-main{
 	padding: 7px 15px;
@@ -5706,7 +5726,7 @@ footer{
 	}
 
 	.hex-block{
-		padding: 12px;
+		padding: 9px;
 	}
 	.hex-table-title h4{
 		font-size: 26px;
@@ -5759,8 +5779,7 @@ footer{
 	.about-transform .about-sld .owl-controls .owl-dots,
 	.about-sld .owl-controls .owl-dots{
 		top: auto;
-    	left: 50%;
-    	margin-left: -21px;
+    	margin-right:auto;
 	}
 	.about-transform .about-sld .owl-controls .owl-dots{
 		margin-left: -35px;
@@ -5781,7 +5800,7 @@ footer{
 		font-size: 16px;
 		margin-bottom: 15px;
 		    transform-origin: left;
-    transform: scale(0.8);
+		transform: scale(0.8);
 	}
 
 	.about-transform .about-details .btn-main:before,
@@ -5809,6 +5828,7 @@ footer{
 	}
 	.about-project .about-img img, .about-msg .about-img img, .about-transform .about-img img, .about-normal .about-img img{
 		margin: 0 auto;
+
 	}
 	.about-msg .about-details, .about-normal .about-details{
 		padding-left: 0;
@@ -5880,9 +5900,19 @@ footer{
 	}
 	.join-btn .btn-main{
 		font-size: 12px;
-    padding: 10px 20px;
+		padding: 12px 35px;
 		width: auto;
+		margin-left: auto;
+		margin-right: auto;
 	}
+
+	.join-details .main-title{
+		color: #1e266d;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	  }
+
 	.join-details{
 		width: 100%;
 	}
@@ -6031,7 +6061,10 @@ footer{
 	}
 	.about-img{
 		margin-top: 20px;
-		margin-bottom: 0;
+		/* margin-bottom: 0; */
+		width: 130%;
+		margin-left: -50px;
+		/* margin-right: auto; */
 	}
 
 	.hextabs-wrapper{
@@ -6095,8 +6128,9 @@ footer{
 		max-width: 42%!important;
 	}
 	.hex-project-list{
-		width: 95%;
+		width: 75%;
 		margin: 0 auto;
+		margin-top: 22px;
 	}
 
 	.app-list li img{
