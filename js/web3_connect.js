@@ -3872,7 +3872,7 @@ window.addEventListener('load', async () => {
 	else {
 		web3 = new Web3(new Web3.providers.HttpProvider(infura));
 		//PopulatePools();
-		errorMessage("No wallet found, please try with a compatible dapp browser.<br/><br/><i style='color:black; width:35px;' class='fa fa-mobile'></i><a href='https://www.opera.com/mobile' target='_blank'>Opera Browser</a><br/><i style='color:black; width:35px;' class='fa fa-desktop'></i><a href='https://brave.com/?ref=swi951' target='_blank'>Brave Browser</a>");
+		errorMessage("No wallet found, please try with a compatible dapp browser.<div class='errormsgflex'><div><img src='images/icons/phone.png'><a href='https://www.opera.com/mobile' target='_blank'>Opera Browser</a></div><div><img src='images/icons/tv.png'><a href='https://brave.com/?ref=swi951' target='_blank'>Brave Browser</a></div></div>");
 		console.log("Defaulting to infura for view only");
 	}
 });
@@ -3968,7 +3968,7 @@ function CheckNetwork() {
 
 function errorMessage(text) {
 	console.log(text);
-	document.getElementById("errorMsg").innerHTML = '<i class="fa fa-exclamation-circle"></i>&nbsp;' + text;
+	document.getElementById("errorMsg").innerHTML = '<img src="images/icons/alert.png">' + text;
 	$("#errorMsg").fadeIn(1000);
 	setTimeout(function () {
 		$("#errorMsg").fadeOut(1000);
