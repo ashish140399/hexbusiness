@@ -236,15 +236,15 @@ p{
 }
 .btn-top,
 .navbar-default .navbar-nav>li>.btn-main{
-  color: #f68b24;
+  color: #6D3AB0;
   position: relative;
   padding: 12px 20px;
   margin-left: 200px;
   display: table;
   border-radius: 10px;
-  border: 2px solid #f68b24;
+  border: 2px solid #6D3AB0;
   background-color: #faf8fb;
-}
+}/*
 .btn-top:after,
 .navbar-default .navbar-nav>li>.btn-main:after{
   content: '';
@@ -256,12 +256,12 @@ p{
   background-image: url('../images/icons/fox-icon.png');
   background-position: center;
   background-size: 100% 100%;
-}
+}*/
 .btn-top:focus,
 .btn-top:hover,
 .navbar-default .navbar-nav>li>.btn-main:focus,
 .navbar-default .navbar-nav>li>.btn-main:hover{
-  background-color: #f68b24;
+  background-color: #6D3AB0;
   color: #fff;
 }
 .navbar-default .navbar-nav>.open>a,
@@ -1797,3 +1797,24 @@ footer{
 }
 
 /**/
+
+
+
+.navbtn_img{
+  display: inline-block;
+    width: 90px;
+    margin-left: 8px;
+    background-image: url(../images/logo.png);
+    height: 16px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.nav-hexbtn .btn-main{
+  display: flex !important;
+  align-items: center;
+}
+
+.navbar-default .navbar-nav>li>.btn-main:hover .navbtn_img{
+  background-image: url(../images/hex-business-white.png);
+}
