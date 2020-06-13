@@ -2945,7 +2945,9 @@ footer{
 
 
 
-
+	.referral_outer b{
+	  font-size: 16px;
+	}
 
 
 	.welcome_section_main{
@@ -3716,6 +3718,15 @@ footer{
 
 
 @media(min-width:448px) and (max-width:767px){
+	.reff_section .hex-block{
+		display: block;
+	}
+	.referral_outer{
+		margin-top: 8px
+	}
+	.referral_outer b{
+	  font-size: 16px;
+	}
 	.overview_section .hex-table .table-responsive2 tbody tr:nth-child(1) td {
 	    padding-top: 8px !important;
 	}
@@ -4566,7 +4577,15 @@ footer{
 
 
 @media(max-width:447px){
-
+	.reff_section .hex-block{
+		display: block;
+	}
+	.referral_outer{
+		margin-top: 8px
+	}
+	.referral_outer b{
+	  font-size: 13px;
+	}
 	.overview_rate_sec_tbody tr td:nth-child(even) p{
 		margin-right: 0 !important;
 	}

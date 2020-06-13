@@ -2322,3 +2322,27 @@ background-image: linear-gradient(to left, #fff , #fff) !important;
   word-break: break-all;
   font-weight: bold;
 }
+
+.reff_section{
+    color: #858ab0;
+    display: flex !important; 
+
+}
+.referral_outer b{
+  font-size: 18px
+}
+.reff_section .hex-block{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+.reff_section img{
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-left: 20px;
+}
+.referral_outer{
+  display: flex;
+  align-items: center;
+}
