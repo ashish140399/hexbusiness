@@ -823,9 +823,9 @@ p{
   border-color: #333;
 }
 .about-transform .about-details .btn-main:before{
-  /**width: 18px;**/
+  width: 18px;
   height: 26px;
-  background-image: url('../images/icons/white.png');
+  background-image: url('../images/icons/refresh-icon.png');
 }
 
 .about-msg .about-details{
@@ -1766,6 +1766,9 @@ footer{
 
 
 
+
+
+
 .section_heading{
   margin: 2em 0 2em 0 !important
 }
@@ -1776,15 +1779,28 @@ footer{
   margin-top: 5%;
 }
 
+
+
+
+
 .hexmoneyimage{
 	width: 100% !important;
 	max-width: none !important;
 	margin: 2em 0em 2em 1em !important;
 }
 
+
+
+
+
+
+
 .mobileshow{
 		display: none;
 	}
+
+
+
 
 .mobileshow-footer{
 	display: flex;
@@ -1795,5 +1811,3 @@ footer{
 	width: auto;
 	margin-right: 20px;
 }
-
-/**/

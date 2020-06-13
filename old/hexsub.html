@@ -10,12 +10,9 @@
     <link rel="stylesheet" type="text/css" href="css/style2.css?ver=2.2" />
     <link rel="stylesheet" type="text/css" href="css/responsive2.css?ver=2.2" />
     <link rel="icon" href="images/favicon.png" type="image/gif" sizes="16x16">
-    <title>HEX Money</title>
+    <title>hey.money - Hexbusiness</title>
 </head>
 <body class="hexsub">
-        <!-- Error / Success-->
-        <div id="errorMsg"></div>
-        <div id="successMsg"></div>
     <nav class="navbar navbar-default wow fadeInDown navmobilehide" data-wow-duration="1s" data-wow-delay="0.20s">
         <div>
             
@@ -64,7 +61,9 @@
                         </ul>
                     </li></ul><ul class="nav navbar-nav" id="menu">
                     <li class="nav-hexbtn"> 
-                        <a href="#" class="btn-main" onclick="Approve()">Approve Metamask</a>
+                        <div class="hex-btn">
+                            <button href="#" type="submit" class="btn-main">Go to <div></div><i class="fa fa-arrow-right"></i></button>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -117,9 +116,10 @@
                         </ul>
                     </li>
                    <li class="nav-hexbtn"> 
-                        <a href="#" class="btn-main" onclick="Approve()">Approve Metamask</a>
+                        <div class="hex-btn">
+                            <button href="#" type="submit" class="btn-main">Go to <div></div><i class="fa fa-arrow-right"></i></button>
+                        </div>
                     </li>
-
             </div>
         </div>
     </nav>
@@ -134,66 +134,78 @@
                 Welcome
                 <span>
                     <img src="images/icons/fox-icon.png">
-                    <b id="userAddress" class="addressBreak">Connecting...</b>
+                    <b>Shane</b>
                 </span>
             </div>
             <div class="welcome_walletbalance">
                 <span>Your Wallet Balance</span>
                 <span class="welcome_col_span">
                     <span><img src="images/cmp-icons/01.png"></span>
-                    <span><b id="hxyBalance">0</b></span>
+                    <span><b>1.000.000</b></span>
                     <span>HXY</span>
                 </span>
                 <span class="welcome_col_span">
                     <span><img src="images/cmp-icons/05.png"></span>
-                    <span><b id="hexBalance">0</b></span>
+                    <span><b>1.000.000</b></span>
                     <span>HEX</span>
                 </span>
                 <span class="welcome_col_span">
                     <span><img src="images/cmp-icons/04.png"></span>
-                    <span><b id="ethBalance">0</b></span>
+                    <span><b>1.000.000</b></span>
                     <span>ETH</span>
                 </span>
                 <span class="welcome_col_span">
                     <span><img src="images/cmp-icons/06.png"></span>
-                    <span><b id="usdcBalance">0</b></span>
+                    <span><b>1.000.000</b></span>
                     <span>USDC</span>
                 </span>
             </div>
         </div>
+       
+       
     </section>
+
+
+
+
+
+
+
+
+
+
     <section class="hexsection">
         <div class="row">
             <div class="col-sm-4">
                 <div class="hextabs-block hextabs-block1" id="hex-tab1">
-                    <h4>Transform <span id="transformCoin">HEX</span> to HXY</h4>
+                    <h4>Transform HEX to HXY</h4>
                     <div class="hex-form">
                         <div class="hex-select">
-                            <label>Select</label>
-                            <select class="form-control" onchange="SelectTransform(this)">
-                                <option value="HEX" class="placeholder" selected>HEX</option>
-                                <option value="USDC">USDC </option>
-                                <option value="ETH">ETH </option>
+                            <label>Send</label>
+                            <select class="form-control">
+                                <option class="placeholder">HEX</option>
+                                <option>USDC </option>
+                                <option>ETH </option>
                             </select>
                         </div>
                         <div class="hex-receive">
                             <label>Amount</label>
                             <div>
-                            <input id="transformInput" type="number" class="form-control" placeholder="2000" value="2000" oninput="TransformChange(this, this.nextElementSibling.innerHTML)">
-                            <span id="transformCoin2">HEX</span>
+                            <input type="text" class="form-control" placeholder="500.000">
+                            <span>HEX</span>
                            </div> 
                         </div>
                         <div class="hex-available">
                             <label>Receive</label>
                             <div>
                                 <img src="images/icons/receive-form.png">
-                                <b id="hxyConversion">1</b>
+                                <b>100</b>
                                 <span>HXY</span>
                             </div>
                         </div>
                         <div class="hex-btn">
                             <div class="hex-btn-outer">
-                                <button type="button" class="btn-main" onclick="Transform()">Transform</button>
+                                <button href="#" type="submit" class="btn-main">Transform</button>
                             </div>
                             
                         </div>
@@ -205,31 +217,29 @@
                 <div class="hextabs-block hextabs-block2" id="hex-tab1">
                     <h4>Freeze HXY </h4>
                     <div class="hex-form">
+                        <div class="hex-select">
+                            <label>Send</label>
+                            <select class="form-control">
+                                <option class="placeholder">HXY - hex money</option>                            </select>
+                        </div>
                         <div class="hex-receive">
                             <label>Amount</label>
                             <div>
-                                <input id="freezeAmount" type="number" class="form-control" placeholder="1" value="1">
+                                <input type="text" class="form-control" placeholder="500.000">
                                 <span>HXY</span>
                             </div>
                         </div>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
                         <div class="hex-available">
                             <label>Available</label>
                             <div>
                                 <img src="images/icons/receive-form.png">
-                                <b id="hxyAvailable">Loading...</b>
+                                <b>100</b>
                                 <span>HXY</span>
                             </div>
                         </div>
                         <div class="hex-btn">
                             <div class="hex-btn-outer">
-                                <button type="button" class="btn-main" onclick="FreezeTokens()">Freeze</button>
+                                <button href="#" type="submit" class="btn-main">Freeze</button>
                             </div>
                             
                         </div>
@@ -245,26 +255,26 @@
                     <div class="hex-form hex-form-dividend">
                         <div class="hex-receive hex-receive-div-1">
                             <div>
-                                <input id="ethDivs" type="number" class="form-control" placeholder="Loading..." readonly>
+                                <input type="text" class="form-control" placeholder="500.000" readonly>
                                 <span>ETH</span>
                             </div>
 
                         </div>
                         <div class="hex-receive hex-receive-div-2">
                             <div>
-                                <input id="hexDivs" type="number" class="form-control" placeholder="Loading..." readonly>
+                                <input type="text" class="form-control" placeholder="500.000" readonly>
                                 <span>HEX</span>
                             </div>
                         </div>
                         <div class="hex-receive hex-receive-div-3">
                             <div>
-                                <input id="hxyDivs" type="number" class="form-control" placeholder="Loading..."readonly>
+                                <input type="text" class="form-control" placeholder="500.000" readonly>
                                 <span>HXY</span>
                             </div>
                         </div>
                         <div class="hex-receive hex-receive-div-4">
                             <div>
-                                <input id="usdcDivs" type="number" class="form-control" placeholder="Loading..." readonly>
+                                <input type="text" class="form-control" placeholder="500.000" readonly>
                                 <span>USDC</span>
                             </div>
                         </div>
@@ -275,7 +285,7 @@
                         </div>
                         <div class="hex-btn">
                             <div class="hex-btn-outer">
-                                <button type="button" class="btn-main" onclick="ClaimDividends()">Claim</button>
+                                <button href="#" type="submit" class="btn-main">Claim</button>
                             </div>
                             
                         </div>
@@ -444,7 +454,7 @@
                                     <td width="50%"  class="overview_rate">
                                         <p>
                                             <img src="images/icons/receive-form.png">
-                                            <span><b id="maxSupply">60,000,000</b></span>
+                                            <span><b>100</b></span>
                                             <span>HXY</span>
                                         </p>
                                     </td>
@@ -455,7 +465,7 @@
                                     <td width="50%" class="overview_rate">
                                         <p>
                                             <img src="images/icons/receive-form.png">
-                                            <span><b id="lockedSupply">6,000,000</b></span>
+                                            <span><b>100</b></span>
                                             <span>HXY</span>
                                         </p>
                                     </td>
@@ -466,7 +476,7 @@
                                     <td width="50%">
                                         <p>
                                             <img src="images/icons/receive-form.png">
-                                            <span><b id="totalSupply">Loading...</b></span>
+                                            <span><b>100</b></span>
                                             <span>HXY</span>
                                         </p>
                                     </td>
@@ -478,7 +488,7 @@
                                     <td width="50%">
                                         <p>
                                             <img src="images/icons/receive-form.png">
-                                            <span><b id="frozenSupply">Loading...</b></span>
+                                            <span><b>100</b></span>
                                             <span>HXY</span>
                                         </p>
                                     </td>
@@ -489,7 +499,7 @@
                                     <td width="50%">
                                         <p>
                                             <img src="images/icons/receive-form.png">
-                                            <span><b id="circulatingSupply">Loading...</b></span>
+                                            <span><b>100</b></span>
                                             <span>HXY</span>
                                         </p>
                                     </td>
@@ -508,7 +518,6 @@
                             </tbody>
                         </table>
                     </div>
-                   
                     <div class="table-responsive table-responsive2">
                         <table class="table">
                             <thead  class="overview_rate_sec_thead mobilehide">
@@ -523,7 +532,7 @@
                                      <td width="50%">
                                         <p>
                                             <img src="images/cmp-icons/04.png">
-                                            <span><b>0</b></span>
+                                            <span><b>100 / 90</b></span>
                                             <span>ETH</span>
                                         </p>
                                     </td>
@@ -534,7 +543,7 @@
                                      <td width="50%">
                                         <p>
                                             <img src="images/cmp-icons/04.png">
-                                            <span><b>0</b></span>
+                                            <span><b>50</b></span>
                                             <span>ETH</span>
                                         </p>
                                     </td>
@@ -545,8 +554,8 @@
                                      <td width="50%">
                                         <p>
                                             <img src="images/cmp-icons/05.png">
-                                            <span><b>0</b></span>
-                                            <span>HEX</span>
+                                            <span><b>100 / 90</b></span>
+                                            <span>HXY</span>
                                         </p>
                                     </td>
                                 </tr>
@@ -557,8 +566,8 @@
                                      <td width="50%">
                                         <p>
                                             <img src="images/cmp-icons/05.png">
-                                            <span><b>0</b></span>
-                                            <span>HEX</span>
+                                            <span><b>500</b></span>
+                                            <span>HXY</span>
                                         </p>
                                     </td>
                                 </tr>
@@ -568,8 +577,8 @@
                                      <td width="50%">
                                         <p>
                                             <img src="images/cmp-icons/05.png">
-                                            <span><b>0</b></span>
-                                            <span>USDC</span>
+                                            <span><b>9.000</b></span>
+                                            <span>HEX</span>
                                         </p>
                                     </td>
                                 </tr>
@@ -580,8 +589,8 @@
                                      <td width="50%">
                                         <p>
                                             <img src="images/cmp-icons/05.png">
-                                            <span><b>0</b></span>
-                                            <span>USDC</span>
+                                            <span><b>500</b></span>
+                                            <span>HXY</span>
                                         </p>
                                     </td>
                                 </tr>
@@ -591,7 +600,6 @@
                             </tbody>
                         </table>
                     </div>
-                    
                 </div>
 
             </div>
@@ -625,17 +633,11 @@
         <div class="container">
             <div class="join-wrapepr">
                 <div class="join-details wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.40s">
-                    <h2 class="main-title">Join 8.738+ users <br> on our Telegram Group</h2>
+                    <h2 class="main-title">Join 8.738+ Users <br> on our Telegram Group</h2>
                 </div>
                 <div class="join-btn wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.40s">
-                    <a href="https://t.me/hexmobileapp" class="btn-main">Join <i class="fa fa-paper-plane"></i> Telegram</a>
+                    <a href="#" class="btn-main">Join <i class="fa fa-paper-plane"></i> Telegram</a>
                 </div>
-            </div>
-            <div class="join-wrapepr">
-                <div class="join-details wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.40s">
-                    <h2 class="main-title">Refer others and <br>earn HXY rewards</h2>
-                </div>
-                <p><b style="color:white">https://hex.business/?r=<span id="refAddress" class="addressBreak">YOUR_ETH_ADDRESS</span></b></p>
             </div>
         </div>
     </section>
@@ -651,14 +653,14 @@
                             <a href="#" class="ft-logo">
                                 <img src="images/logo-white.png" alt="logo">
                             </a>
-                            <p>HEX Money is brought to you by HEX Business - Our ERC20 incentive token, HXY, acts as the economic core to the hex.business DApp eco-system.</p>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et. </p>
                             <ul class="footer-social">
-                                <li><a href="https://t.me/hexmobileapp"><i class="fa fa-paper-plane"></i></a></li>
-                                <li><a href="https://twitter.com"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-paper-plane"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                             </ul>
                             <div class="nav-hexbtn footer-nav-hexbtn"> 
                                 <div class="hex-btn">
-                                <a href="./index.html"><button class="btn-main">Go to <div></div><i class="fa fa-arrow-right"></i></button></a>
+                                <button href="#" type="submit" class="btn-main">Go to <div></div><i class="fa fa-arrow-right"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -667,8 +669,8 @@
                         <div class="footer-list">
                             <h4>About Hex</h4>
                             <ul>
-                                <li><a href="https://hex.win" target="_blank">hex</a></li>
-                                <li><a href="https://go.hex.win" target="_blank">hex AA lobby (10% extra)</a></li>
+                                <li><a href="#">hex</a></li>
+                                <li><a href="#">hex AA lobby (10% extra)</a></li>
                                 <li><a href="#">Litepaper</a></li>
                             </ul>
                         </div>
@@ -677,7 +679,7 @@
                         <div class="footer-list">
                             <h4>Entertainment</h4>
                             <ul>
-                                <li><a href="https://hexlotto.com" target="_blank">hex lotto rocket</a></li>
+                                <li><a href="#">hex lotto rocket</a></li>
                                 <li><a href="#">hex lotto stake</a></li>
                                 <li><a href="#">hex bet</a></li>
                                 <li><a href="#">hex play</a></li>
@@ -693,7 +695,7 @@
                                 <li><a href="#">hex.mobile</a></li>
                                 <li><a href="#">hex.credit</a></li>
                                 <li><a href="#">hex.money</a></li>
-                                <li><a href="https://hexpool.win" target="_blank">hex.pool</a></li>
+                                <li><a href="#">hex.pool</a></li>
                                 <li><a href="#">hex.stable</a></li>
                             </ul>
                         </div>
@@ -702,7 +704,7 @@
                         <div class="footer-list">
                             <h4>Entertainment</h4>
                             <ul>
-                                <li><a href="https://hexlotto.com" target="_blank">hex lotto rocket</a></li>
+                                <li><a href="#">hex lotto rocket</a></li>
                                 <li><a href="#">hex lotto stake</a></li>
                                 <li><a href="#">hex bet</a></li>
                                 <li><a href="#">hex play</a></li>
@@ -715,8 +717,8 @@
                         <div class="footer-list">
                             <h4>Stats</h4>
                             <ul>
-                                <li><a href="https://hex.vision" target="_blank">hex.vision</a></li>
-                                <li><a href="https://uniswap.hex.vision" target="_blank">uniswap.hex.vision</a></li>
+                                <li><a href="#">hex.vision</a></li>
+                                <li><a href="#">uniswap.hex.vision</a></li>
                             </ul>
                         </div>
                     </div>
@@ -876,10 +878,5 @@
           },1000);
         }
     </script>
-
-    <!-- Ethereum control -->
-    <script type="text/javascript" src="js/web3.min.js"></script>
-    <script type="text/javascript" src="js/web3_connect.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
