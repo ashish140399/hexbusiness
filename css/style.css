@@ -1804,11 +1804,15 @@ footer{
   display: inline-block;
     width: 90px;
     margin-left: 8px;
-    background-image: url(../images/logo.png);
+    background-image: url(../images/logo_purple.png);
     height: 16px;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+    -webkit-transition: .4s linear;
+    -moz-transition: .4s linear;
+    -ms-transition: .4s linear;
+    transition: .4s linear;
 }
 .nav-hexbtn .btn-main{
   display: flex !important;
@@ -1816,5 +1820,5 @@ footer{
 }
 
 .navbar-default .navbar-nav>li>.btn-main:hover .navbtn_img{
-  background-image: url(../images/hex-business-white.png);
+  background-image: url(../images/logo_white.png);
 }
