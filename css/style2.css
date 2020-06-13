@@ -2326,10 +2326,11 @@ background-image: linear-gradient(to left, #fff , #fff) !important;
 .reff_section{
     color: #858ab0;
     display: flex !important; 
+    font-size: 18px
 
 }
 .referral_outer b{
-  font-size: 16px
+  font-size: 14px
 }
 .reff_section .hex-block{
   display: flex;
@@ -2340,7 +2341,7 @@ background-image: linear-gradient(to left, #fff , #fff) !important;
   width: 20px;
   height: 20px;
   display: inline-block;
-  margin-left: 20px;
+  margin-left: 8vw;
 }
 .referral_outer{
   display: flex;
