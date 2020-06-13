@@ -1802,10 +1802,10 @@ footer{
 
 .navbtn_img{
   display: inline-block;
-    width: 90px;
+    width: 96px;
     margin-left: 8px;
     background-image: url(../images/logo_purple.png);
-    height: 16px;
+    height: 20px;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -1819,6 +1819,11 @@ footer{
   align-items: center;
 }
 
+
+
+.btn-top:focus .navbtn_img,
+.btn-top:hover .navbtn_img,
+.navbar-default .navbar-nav>li>.btn-main:focus .navbtn_img,
 .navbar-default .navbar-nav>li>.btn-main:hover .navbtn_img{
-  background-image: url(../images/logo_white.png);
+ background-image: url(../images/logo_white.png);
 }
