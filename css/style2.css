@@ -2331,7 +2331,6 @@ background-image: linear-gradient(to left, #fff , #fff) !important;
 .addressBreak {
   word-wrap: break-word;
   word-break: break-all;
-  font-weight: bold;
 }
 
 .reff_section{
@@ -2342,7 +2341,12 @@ background-image: linear-gradient(to left, #fff , #fff) !important;
 
 }
 .referral_outer b{
-  font-size: 14px
+  font-size: 14px;
+  font-weight: 600;
+}
+.referral_outer span{
+  font-size: 14px;
+  font-weight: 600;
 }
 .reff_section .hex-block{
   display: flex;
