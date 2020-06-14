@@ -2544,3 +2544,8 @@ input::-webkit-inner-spin-button {
 input[type=number] {
   -moz-appearance: textfield;
 }
+
+.welcome_upper_first{
+  display: flex;
+  align-items: center;
+}
