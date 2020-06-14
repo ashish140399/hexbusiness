@@ -2337,7 +2337,8 @@ background-image: linear-gradient(to left, #fff , #fff) !important;
 .reff_section{
     color: #858ab0;
     display: flex !important; 
-    font-size: 18px
+    font-size: 18px;
+    padding: 20px 0;
 
 }
 .referral_outer b{
@@ -2440,7 +2441,7 @@ align-items: center;
 color: #858ab0
 }
 .welcome_conv_outer .coloured_gradient_outer{
-  border-radius: 10px;
+  border-radius: 12px;
   margin:0 15px;
 }
 .welcome_conv_inner{
@@ -2480,7 +2481,7 @@ color: #858ab0
 
 
 #claimdividends {
-  display: block;
+  display: none;
   position: fixed;
   top:0px;
   left:50%;
