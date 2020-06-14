@@ -3780,6 +3780,13 @@ footer{
 
 
 @media(min-width:448px) and (max-width:767px){
+	.reff_section .hex-block{
+		flex-direction: column;
+   		display: flex;
+	}
+	.reff_section{
+		font-size: 16px;
+	}
 	#claimdividends{
 		width: 420px;
 	}
@@ -4682,7 +4689,13 @@ footer{
 
 
 @media(max-width:447px){
-
+	.reff_section .hex-block{
+		flex-direction: column;
+   		display: flex;
+	}
+	.reff_section{
+		font-size: 16px;
+	}
 	#claimdividends{
 		width: 350px;
 	}
