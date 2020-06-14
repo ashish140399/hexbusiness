@@ -129,12 +129,16 @@
     <!-- End Header -->
 
     <section class="welcome_section">
+        <div class="round_outer">
+            <div class="coloured_gradient_outer"><div class="round_innervalue">1</div></div>
+            <b>Round</b>
+        </div>
         <div class="welcome_section_main">
-             <div class="welcome_usrname">
+            <div class="welcome_usrname">
                 Welcome
                 <span>
                     <img src="images/icons/fox-icon.png">
-                    <b id="userAddress" class="addressBreak">Connecting...</b>
+                        <b id="userAddress" class="addressBreak">Connecting...</b>
                 </span>
             </div>
             <div class="welcome_walletbalance">
@@ -369,7 +373,7 @@
                                 <td width="19%"  class="overview_rate">
                                     <p>
                                         <span><b id="maxSupply">60,000,000</b></span>
-                                        <span class="up">23</span>
+                                        <span class="up">0.03 %</span>
                                     </p>
                                 </td>
                                 <td width="19%"  class="overview_rate">
@@ -393,7 +397,7 @@
                                 <td width="19%"  class="overview_rate">
                                     <p>
                                         <span><b id="maxSupply">60,000,000</b></span>
-                                        <span class="down">23</span>
+                                        <span class="down">0.03 %</span>
                                     </p>
                                 </td>
                                 <td width="19%"  class="overview_rate">
@@ -417,7 +421,7 @@
                                 <td width="19%"  class="overview_rate">
                                     <p>
                                         <span><b id="maxSupply">60,000,000</b></span>
-                                        <span class="up">23</span>
+                                        <span class="up">0.03 %</span>
                                     </p>
                                 </td>
                                 <td width="19%"  class="overview_rate">
@@ -446,7 +450,7 @@
                                 <td width="19%"  class="overview_rate">
                                     <p>
                                         <span><b id="maxSupply">60,000,000</b></span>
-                                        <span class="up">23</span>
+                                        <span class="up">0.03 %</span>
                                     </p>
                                 </td>
                                 <td width="19%"  class="overview_rate">
@@ -470,7 +474,7 @@
                                 <td width="19%"  class="overview_rate">
                                     <p>
                                         <span><b id="maxSupply">60,000,000</b></span>
-                                        <span class="down">23</span>
+                                        <span class="down">0.03 %</span>
                                     </p>
                                 </td>
                                 <td width="19%"  class="overview_rate">
@@ -544,7 +548,7 @@
                             </thead>
                             <tbody class="overview_rate_sec_tbody">
                                 <tr>
-                                    <td width="50%"><p><strong>Max Supply</strong></p></td>
+                                    <td width="50%"><p><strong>Total Supply</strong></p></td>
                                     <td width="50%"  class="overview_rate">
                                         <p>
                                             <img src="images/icons/receive-form.png">
@@ -555,7 +559,7 @@
                                 </tr>
                   
                                 <tr>
-                                    <td width="50%"><p><strong>Locked</strong></p></td>
+                                    <td width="50%"><p><strong>Frozen HXY</strong></p></td>
                                     <td width="50%" class="overview_rate">
                                         <p>
                                             <img src="images/icons/receive-form.png">
@@ -566,7 +570,7 @@
                                 </tr>
 
                                 <tr>
-                                    <td width="50%"><p><strong>Total Supply</strong></p></td>
+                                    <td width="50%"><p><strong>Circulating Supply</strong></p></td>
                                     <td width="50%">
                                         <p>
                                             <img src="images/icons/receive-form.png">
@@ -578,7 +582,7 @@
                   
 
                                 <tr>
-                                    <td width="50%"><p><strong>Frozen</strong></p></td>
+                                    <td width="50%"><p><strong>Total HEX Transformed</strong></p></td>
                                     <td width="50%">
                                         <p>
                                             <img src="images/icons/receive-form.png">
@@ -589,7 +593,7 @@
                                 </tr>
 
                                 <tr>
-                                    <td width="50%"><p><strong>Circulating</strong></p></td>
+                                    <td width="50%"><p><strong>Total USDC Transformed</strong></p></td>
                                     <td width="50%">
                                         <p>
                                             <img src="images/icons/receive-form.png">
@@ -598,14 +602,24 @@
                                         </p>
                                     </td>
                                 </tr>
+                                <tr>
+                                    <td width="50%"><p><strong>Total ETH Transformed</strong></p></td>
+                                    <td width="50%">
+                                        <p>
+                                            <img src="images/icons/receive-form.png">
+                                            <span><b id="circulatingSupply">9.00.00</b></span>
+                                            <span>HXY</span>
+                                        </p>
+                                    </td>
+                                </tr>
 
 
-                                <tr class="mobilehide">
+                                <!--tr class="mobilehide">
                                     <td width="50%"></td>
                                     <td width="50%">
                                     
                                     </td>
-                                </tr>
+                                </tr-->
                   
                   
                   
@@ -623,7 +637,7 @@
                             </thead>
                             <tbody class="overview_rate_sec_tbody">
                                 <tr>
-                                    <td width="50%"><p><strong>Dividends Yesterday</strong></p></td>
+                                    <td width="50%"><p><strong>Locked HXY</strong></p></td>
                                      <td width="50%">
                                         <p>
                                             <img src="images/cmp-icons/04.png">
@@ -634,7 +648,7 @@
                                 </tr>
                   
                                 <tr>
-                                    <td width="50%"><p><strong>Dividends Today</strong></p></td>
+                                    <td width="50%"><p><strong>Your HXY Interest</strong></p></td>
                                      <td width="50%">
                                         <p>
                                             <img src="images/cmp-icons/04.png">
@@ -645,7 +659,7 @@
                                 </tr>
 
                                 <tr>
-                                    <td width="50%"><p><strong>Dividends Yesterday</strong></p></td>
+                                    <td width="50%"><p><strong>Your Frozen HXY</strong></p></td>
                                      <td width="50%">
                                         <p>
                                             <img src="images/cmp-icons/05.png">
@@ -657,7 +671,7 @@
                   
 
                                 <tr>
-                                    <td width="50%"><p><strong>Dividends Today</strong></p></td>
+                                    <td width="50%"><p><strong>Max Supply</strong></p></td>
                                      <td width="50%">
                                         <p>
                                             <img src="images/cmp-icons/05.png">
@@ -668,7 +682,7 @@
                                 </tr>
 
                                 <tr>
-                                    <td width="50%"><p><strong>Dividends Yesterday</strong></p></td>
+                                    <td width="50%"><p><strong>Total HXY Transformed</strong></p></td>
                                      <td width="50%">
                                         <p>
                                             <img src="images/cmp-icons/05.png">
@@ -676,21 +690,7 @@
                                             <span>USDC</span>
                                         </p>
                                     </td>
-                                </tr>
-
-
-                                <tr>
-                                    <td width="50%"><p><strong>Dividends Today</strong></p></td>
-                                     <td width="50%">
-                                        <p>
-                                            <img src="images/cmp-icons/05.png">
-                                            <span><b>0</b></span>
-                                            <span>USDC</span>
-                                        </p>
-                                    </td>
-                                </tr>
-                  
-                  
+                                </tr>                  
                   
                             </tbody>
                         </table>
