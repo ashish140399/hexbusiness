@@ -2449,5 +2449,20 @@ color: #858ab0
 }
 .welcome_upper{
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom:4em;
+  justify-content: space-between;
+}
+
+.welcome_progressbar{
+  display: flex;
+  align-items: center;
+}
+.welcome_progressbar{
+  color: #858ab0;
+  font-size: 13px;
+}
+.welcome_progressbar b{
+  margin-right: 10px;
+  color: #1e266d;
+  font-size: 14px;
 }
