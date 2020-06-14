@@ -1997,7 +1997,6 @@ footer{
     -webkit-box-shadow: 3px 0 35px rgba(0,0,0,0.03);
             box-shadow: 3px 0 35px rgba(0,0,0,0.03);
     background-color: #fff;
-    padding: 25px;
     font-family: 'Montserrat';
 }
 
@@ -2018,6 +2017,7 @@ footer{
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+          padding:  45px 25px 30px 25px
 }
 .welcome_col_span{
   margin-left: 30px;
@@ -2145,6 +2145,9 @@ background-image: linear-gradient(to left, #fff , #fff) !important;
   font-family: 'Montserrat';
   font-weight: 500;
   color: #858ab0;
+  background-color: #fefefe;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
 }
 .welcome_section_main b{
   font-family: 'Montserrat';
@@ -2301,6 +2304,14 @@ background-image: linear-gradient(to left, #fff , #fff) !important;
   display: inline-block ;
   margin-right: 8px
 }
+
+
+
+
+
+
+
+
 #successMsg {
   display: none;
   color: green;
@@ -2449,8 +2460,8 @@ color: #858ab0
 }
 .welcome_upper{
   display: flex;
-  margin-bottom:4em;
   justify-content: space-between;
+  padding:  20px 25px;
 }
 
 .welcome_progressbar{
@@ -2465,4 +2476,34 @@ color: #858ab0
   margin-right: 10px;
   color: #1e266d;
   font-size: 14px;
+}
+
+
+#claimdividends {
+  display: block;
+  position: fixed;
+  top:0px;
+  left:50%;
+  transform: translate(-50%, 0%);
+  background-color: white;
+  border-bottom-right-radius: 17px;
+  border-bottom-left-radius: 17px;
+  margin-bottom: 5px;
+  padding: 15px;
+  z-index:200;
+  font-family: "Montserrat";
+  
+  width: 500px;
+
+}
+#claimdividends p{
+  font-weight: 400;
+  color: #ff1445;
+}
+
+#claimdividends img{
+  height:  14px;
+  width:  auto;
+  display: inline-block ;
+  margin-right: 8px
 }
