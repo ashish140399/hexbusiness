@@ -2352,12 +2352,14 @@ background-image: linear-gradient(to left, #fff , #fff) !important;
   display: flex;
   justify-content: space-between;
   margin-bottom: 0;
+  -webkit-box-shadow: none;
+  box-shadow:none;
 }
 .reff_section img{
-  width: 20px;
-  height: 20px;
+  height: inherit;
   display: inline-block;
-  margin-left: 8vw;
+  border: 5px solid transparent;
+    box-sizing: border-box;
 }
 .referral_outer{
   display: flex;
@@ -2511,4 +2513,16 @@ color: #858ab0
   width:  auto;
   display: inline-block ;
   margin-right: 8px
+}
+
+.ref_copy_icon{
+  border-radius: 8px;
+  background-color: rgba(119, 29, 255, 1);
+  cursor: pointer;
+  width: 26px;
+  height: 26px;
+   margin-left: 8vw;
+}
+.ref_copy_icon:hover{
+  background-color: rgba(119, 29, 255, 0.7)
 }
