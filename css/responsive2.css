@@ -1162,7 +1162,12 @@ footer{
 @media(min-width:1200px) and (max-width:1350px){
 
 
-
+	.welcome_progressbar{
+		margin-bottom: 20px;
+	}
+	.welcome_upper{
+		display: block;
+	}
 
 
 
