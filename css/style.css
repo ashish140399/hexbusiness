@@ -236,15 +236,15 @@ p{
 }
 .btn-top,
 .navbar-default .navbar-nav>li>.btn-main{
-  color: #6D3AB0;
+  color: #f68b24;
   position: relative;
   padding: 12px 20px;
   margin-left: 200px;
   display: table;
   border-radius: 10px;
-  border: 2px solid #6D3AB0;
+  border: 2px solid #f68b24;
   background-color: #faf8fb;
-}/*
+}
 .btn-top:after,
 .navbar-default .navbar-nav>li>.btn-main:after{
   content: '';
@@ -256,12 +256,12 @@ p{
   background-image: url('../images/icons/fox-icon.png');
   background-position: center;
   background-size: 100% 100%;
-}*/
+}
 .btn-top:focus,
 .btn-top:hover,
 .navbar-default .navbar-nav>li>.btn-main:focus,
 .navbar-default .navbar-nav>li>.btn-main:hover{
-  background-color: #6D3AB0;
+  background-color: #f68b24;
   color: #fff;
 }
 .navbar-default .navbar-nav>.open>a,
@@ -823,9 +823,9 @@ p{
   border-color: #333;
 }
 .about-transform .about-details .btn-main:before{
-  /**width: 18px;**/
+  width: 18px;
   height: 26px;
-  background-image: url('../images/icons/white.png');
+  background-image: url('../images/icons/refresh-icon.png');
 }
 
 .about-msg .about-details{
@@ -1750,13 +1750,16 @@ footer{
   width: 100%;
 }
 .copyright-nm p{
-  text-align: center;
+  float: right;
   margin-bottom: 0;
 }
 .copyright-nm p img{
   display: inline-block;
 }
 /* End Footer */
+
+
+
 
 
 
@@ -1776,15 +1779,28 @@ footer{
   margin-top: 5%;
 }
 
+
+
+
+
 .hexmoneyimage{
 	width: 100% !important;
 	max-width: none !important;
 	margin: 2em 0em 2em 1em !important;
 }
 
+
+
+
+
+
+
 .mobileshow{
 		display: none;
 	}
+
+
+
 
 .mobileshow-footer{
 	display: flex;
@@ -1794,36 +1810,4 @@ footer{
 	margin-bottom: 0;
 	width: auto;
 	margin-right: 20px;
-}
-
-/**/
-
-
-
-.navbtn_img{
-  display: inline-block;
-    width: 96px;
-    margin-left: 8px;
-    background-image: url(../images/logo_purple.png);
-    height: 20px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    -webkit-transition: .4s linear;
-    -moz-transition: .4s linear;
-    -ms-transition: .4s linear;
-    transition: .4s linear;
-}
-.nav-hexbtn .btn-main{
-  display: flex !important;
-  align-items: center;
-}
-
-
-
-.btn-top:focus .navbtn_img,
-.btn-top:hover .navbtn_img,
-.navbar-default .navbar-nav>li>.btn-main:focus .navbtn_img,
-.navbar-default .navbar-nav>li>.btn-main:hover .navbtn_img{
- background-image: url(../images/logo_white.png);
 }
