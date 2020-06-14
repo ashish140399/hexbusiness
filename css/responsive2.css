@@ -3780,6 +3780,9 @@ footer{
 
 
 @media(min-width:448px) and (max-width:767px){
+	#claimdividends{
+		width: 420px;
+	}
 	.welcome_upper_first{
 	  display: block;
 	  align-items: center;
@@ -4680,8 +4683,12 @@ footer{
 
 @media(max-width:447px){
 
-
-
+	#claimdividends{
+		width: 350px;
+	}
+	#claimdividends p {
+		font-size: 12px;
+	}
 
 	.welcome_upper_first{
 	  display: block;
@@ -4738,7 +4745,7 @@ footer{
 
 
 
-	
+
 
 	.overview_rate_sec_tbody tr td:nth-child(even) p{
 		margin-right: 0 !important;
