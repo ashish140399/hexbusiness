@@ -26,13 +26,12 @@
                 </button>
                 <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="LOGO"></a>
             </div>
-
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav" id="menu">
                     <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">About Hex</a>
+                        <a class=" dropdown-toggle" data-toggle="dropdown" href="#">About Hex</a>
                         <ul class="dropdown-menu">
-                          <li><a href="#">Page1</a></li>
+                          <li class="hexmobile_scroll_click"><a href="#" >Page1</a></li>
                           <li><a href="#">Page2</a></li>
                           <li><a href="#">Page3</a></li>
                         </ul>
@@ -40,7 +39,7 @@
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Our Projects</a>
                         <ul class="dropdown-menu">
-                          <li><a href="#">Page1</a></li>
+                          <li><a href="#" >Page1</a></li>
                           <li><a href="#">Page2</a></li>
                           <li><a href="#">Page3</a></li>
                         </ul>
@@ -297,7 +296,7 @@
     <!-- End Hex Currencies -->
 
     <!-- About Us -->
-    <section id="app" class="about-us">
+    <section id="app" class="about-us  hexmobile_scroll_sec">
         <div class="container">
             <h2 class="main-title section_heading wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.20s">More about hex.business</h2>
             <div class="about-wrapper wow fadeIn" data-wow-duration="1s" data-wow-delay="0.20s">
@@ -1522,6 +1521,18 @@ window.onload = function() {
   css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #1E266D }";
   document.body.appendChild(css);
 };
+    </script>
+
+
+    <script type="text/javascript">
+    	$(document).ready(function () {
+			  $('.hexmobile_scroll_click').click(function(e) {
+			  	 e.preventDefault();
+			  $('html, body').animate({
+			    scrollTop: $(".hexmobile_scroll_sec").offset().top
+			  }, 1000)
+			})
+		});
     </script>
 </body>
 </html>
