@@ -5787,7 +5787,7 @@ footer{
 	.hex-table .table tbody tr td .down,
 	.hex-table .table tbody tr td .up,
 	.hex-table .table tbody tr td p{
-		font-size: 12px;
+		font-size: 10px;
 	}
 	.hex-table .table tbody tr td .down,
 	.hex-table .table tbody tr td .up{
@@ -6183,4 +6183,7 @@ footer{
 		margin-bottom: 18px;
 	}
 	/*another end*/
+	.mobilehidespan{
+		display: none !important;
+	}
 }
