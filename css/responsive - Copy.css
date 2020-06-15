@@ -19,6 +19,39 @@
 }
 
 @media(min-width:2000px) and (max-width:2560px){
+
+	.footer-list h4 {
+	    margin: 0 0 20px;
+	}
+
+
+
+
+
+
+
+
+
+
+	
+
+	.about-img img{
+		max-width: 25em;	
+	}
+
+	.hex-money li a, .hex-money li p, .hex-loan li p, .hex-deposit li p{
+		font-size: 18px
+	}
+	.about-details p{
+		line-height: 30px
+	}
+	.hex-loan li:focus, .hex-loan li:hover{
+		padding: 24px
+	}
+
+
+
+
 	/*comman css*/
 	.container{
   		max-width: 100%;
@@ -35,11 +68,28 @@
   		width: 590px;
 		max-width: 100%;
 	}
-	.about-details p{
+	.about-virtual .about-details h2{
+		padding-right: 120px;
+	}
+	.about-details>p{
 		padding-right: 84px;
 		word-break: break-all;
 	}
+
+	.about-msg .about-details,
+	.about-normal .about-details{
+		padding-left: 0;
+		margin-left: 120px;
+	}
+	.about-msg .about-details>p,
+	.about-normal .about-details>p{
+		padding-right: 45px;
+	}
 	/*index end*/
+
+
+
+
 }
 
 @media(min-width:1800px) and (max-width:1999px){
