@@ -1,9 +1,15 @@
 @media(min-width:2560px){
 
 
+
+
+	.copyright-nm p{
+		padding: 35px 0;
+	}
+	.copyright-wrapper{
+		padding: 0;
+	}
 	
-
-
 
 
 
@@ -242,8 +248,13 @@ footer{
 
 
 
-
-
+	.copyright-nm p{
+		padding: 35px 0;
+	}
+	.copyright-wrapper{
+		padding: 0;
+	}
+	
 
 
 	.about-sld .owl-controls .owl-dots {
@@ -473,6 +484,12 @@ footer{
 
 
 @media(min-width:1800px) and (max-width:1999px){
+	.copyright-nm p{
+		padding: 35px 0;
+	}
+	.copyright-wrapper{
+		padding: 0;
+	}
 	
 	
 	.about-sld .owl-controls .owl-dots {
