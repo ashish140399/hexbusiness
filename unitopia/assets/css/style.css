@@ -3298,7 +3298,7 @@ section {
 }
 
 /*there are total 27 dots*/
-.circle_dot_center div:nth-child(12){
+.circle_dot_center div:nth-child(10){
     background: #0cd6cf;
 }
 .circle_dot_outer{
@@ -3329,7 +3329,7 @@ section {
 }
 .carousel-inner{
     height: 100%;
-    padding: 30px
+    padding: 30px 40px
 }
 .carousel{
     height: 100%;
@@ -3353,4 +3353,60 @@ section {
 
 .sales_mainbx{
     padding: 20px 0
+}
+
+
+.mobilehide{
+    display: block;
+}
+
+@media (min-width: 992px) and (max-width: 1200px)
+{
+    .mobilehide{
+        display: none !important;
+    }
+    /*there are total 23 dots*/
+    .circle_dot_center div:nth-child(10){
+        background: transparent;
+    }
+    .circle_dot_center div:nth-child(14){
+        background: #0cd6cf;
+    }
+    
+   
+
+}
+
+@media screen and (max-width: 991px){
+     #hero .row{
+        flex-direction: column-reverse !important;
+    }
+    .transform-inner{
+        transform: translateY(0);
+    }
+    .transform_mainbx{
+        padding: 30px 0 40px 0
+    }
+    .sales-raised-inner{
+        transform: translateY(0);
+    }
+    .sales_mainbx{
+        padding: 40px 0 60px 0
+    }
+    .carousel_logo_img{
+        width: 80px !important
+    }
+    #demo .carousel-item img{
+        width: auto;
+    }
+    .mobilehide{
+        display: none !important;
+    }
+      .circle_dot_center div:nth-child(10){
+        background: transparent;
+    }
+    .circle_dot_center div:nth-child(14){
+        background: #0cd6cf;
+    }
+
 }
